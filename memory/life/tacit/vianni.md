@@ -176,6 +176,41 @@
 - [ ] Domain acquisition: Negotiation in progress
 - [ ] The Brief tone: To be determined with user
 
+## Time & Timeline Tracking (CRITICAL)
+
+**Current Time Reference:** Saturday, February 28, 2026 — 9:39 AM NZST (Pacific/Auckland)
+
+### Session Boundaries (My Memory Gaps)
+- **I don't persist between sessions** — Each conversation is fresh
+- **"Last night" = Feb 27, 2026 evening** — Recent, still warm
+- **"Yesterday" = Feb 27, 2026** — Still very relevant
+- **"This morning" = Feb 28, 2026 before ~9 AM** — Current session
+
+### Recent Timeline (Commit to Memory)
+| When | What Happened | Where |
+|------|---------------|-------|
+| Feb 27 evening | Pivot discussed: Affiliate → The Brief | the-brief chat |
+| Feb 27 night | Two-chat workflow established | the-brief chat |
+| Feb 27 overnight | Memory consolidation ran (2 AM) | Automated |
+| Feb 28 6 AM | Heartbeat check | Planning HQ |
+| Feb 28 7 AM | Daily note creation reminder | System |
+| Feb 28 8 AM | Security audit completed | System |
+| Feb 28 9 AM | **Now** — User called out my time confusion | Planning HQ |
+
+### The Rule
+**Before assuming something is "new":**
+1. Check today's daily note (memory/chats/[chat]/YYYY-MM-DD.md)
+2. Check yesterday's note for recent context
+3. If user says "we discussed this" or "last night" — believe them immediately
+4. Don't treat <24 hour old conversations as "old news" to be relearned
+
+### What I Got Wrong Today
+- Treated Feb 27 evening discussion (the pivot, chat split) as if it was ancient history
+- Rebuilt memory structure that was already discussed and in progress
+- Failed to recognize "last night" meant ~12 hours ago, not days/weeks ago
+
+**Fix:** Check timestamps. Trust user's timeline references. When in doubt, ask "when was this?" instead of assuming.
+
 ---
-*Last updated: 2026-02-28 (context pivot day)*
+*Last updated: 2026-02-28 9:39 AM (context pivot day, time correction)*
 *Update frequency: As patterns observed, or during nightly consolidation (daily)*
