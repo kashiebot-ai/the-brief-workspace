@@ -1,0 +1,5 @@
+Security audit completed at 2026-02-18 08:18 AM Pacific/Auckland.
+Summary: 0 critical · 1 warn · 1 info.
+WARN: gateway.trusted_proxies_missing - Reverse proxy headers are not trusted.
+INFO: summary.attack_surface - Attack surface summary.
+No critical issues found; no escalation needed.

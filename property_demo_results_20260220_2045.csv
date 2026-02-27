@@ -1,0 +1,6 @@
+rank,address,suburb,price_display,estimated_range,cv_value,cv_gap_percent,sale_method,opportunity_score,bedrooms,bathrooms,land_area,cv_condition,cv_age,url
+1,"45 Marine Parade, Napier South",Napier South,Deadline Sale,"$550,000-$650,000",720000,16.7%,Deadline Sale,7,3,1,550,AG,1960s,https://www.trademe.co.nz/a/property/residential/sale/listing/123456
+2,"12A Milton Road, Taradale",Taradale,Tender,"$450,000-$500,000",580000,18.1%,Tender,7,3,1,480,FP,1950s,https://www.trademe.co.nz/a/property/residential/sale/listing/123458
+3,"33 Hardinge Road, Napier Central",Napier Central,Auction,"$400,000-$450,000",520000,18.3%,Auction,7,2,1,380,AG,1970s,https://www.trademe.co.nz/a/property/residential/sale/listing/123460
+4,"28 Chaucer Road, Westshore",Westshore,Negotiation,"$650,000-$700,000",780000,13.5%,Negotiation,5,4,2,720,GG,1980s,https://www.trademe.co.nz/a/property/residential/sale/listing/123457
+5,"7 King Street, Ahuriri",Ahuriri,"$895,000","$895,000",895000,,Fixed Price,0,3,2,420,AA,2010s,https://www.trademe.co.nz/a/property/residential/sale/listing/123459

@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-21",
+  "programs_analyzed": 19,
+  "articles_generated": 3,
+  "articles_published": 0,
+  "articles_shared": 0,
+  "generated_articles": [
+    {
+      "program": "HeadshotPro",
+      "file": "../../content/articles/headshotpro-review-2026-02-21.md",
+      "title": "HeadshotPro Review February 2026: Is It Worth It?"
+    },
+    {
+      "program": "Copy.ai",
+      "file": "../../content/articles/copy.ai-review-2026-02-21.md",
+      "title": "Copy.ai vs Jasper: Which is Better in February 2026?"
+    },
+    {
+      "program": "HeadshotPro vs Copy.ai",
+      "file": "../../content/articles/headshotpro-vs-copy.ai-comparison-2026-02-21.md",
+      "title": "HeadshotPro vs Copy.ai: Which is Better in 2026?"
+    }
+  ]
+}

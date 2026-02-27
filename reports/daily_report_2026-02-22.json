@@ -1,0 +1,24 @@
+{
+  "date": "2026-02-22",
+  "programs_analyzed": 19,
+  "articles_generated": 3,
+  "articles_published": 0,
+  "articles_shared": 0,
+  "generated_articles": [
+    {
+      "program": "Canva",
+      "file": "/Users/viannicaro-watts/clawd/content/articles/canva-review-2026-02-22.md",
+      "title": "Canva Review February 2026: Is It Worth It?"
+    },
+    {
+      "program": "Anyword",
+      "file": "/Users/viannicaro-watts/clawd/content/articles/anyword-review-2026-02-22.md",
+      "title": "Anyword Review February 2026: Is It Worth It?"
+    },
+    {
+      "program": "Canva vs Anyword",
+      "file": "/Users/viannicaro-watts/clawd/content/articles/canva-vs-anyword-comparison-2026-02-22.md",
+      "title": "Canva vs Anyword: Which is Better in 2026?"
+    }
+  ]
+}

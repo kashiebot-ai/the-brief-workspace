@@ -1,0 +1,25 @@
+{
+  "base_url": "https://your-wordpress-site.com",
+  "username": "admin",
+  "password": "your_application_password_here",
+  "mock_mode": true,
+  "category_map": {
+    "Productivity": 1,
+    "AI Writing": 2,
+    "Graphic Design": 3,
+    "Email Marketing": 4,
+    "CRM/Marketing": 5,
+    "Project Management": 6,
+    "AI Copywriting": 7,
+    "AI Video": 8,
+    "Writing Assistant": 9,
+    "Screen Recording": 10,
+    "Scheduling": 11,
+    "E-commerce": 12,
+    "Web Hosting": 13,
+    "Freelance Marketplace": 14,
+    "Cryptocurrency": 15,
+    "Marketing Education": 16
+  },
+  "note": "Replace with your actual WordPress credentials. Create an application password in WordPress Users > Profile > Application Passwords. Set mock_mode to false when ready to publish live."
+}

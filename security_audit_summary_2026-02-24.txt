@@ -1,0 +1,14 @@
+Security audit completed at 2026-02-24 08:00 AM (Pacific/Auckland).
+
+Findings:
+- Critical issues: 0
+- Warnings: 1
+- Info: 1
+
+Warning details:
+- gateway.trusted_proxies_missing: Reverse proxy headers are not trusted. Since gateway.bind is loopback (localhost) and Control UI is local-only, this is low risk. If exposing via reverse proxy in future, configure trustedProxies.
+
+Info details:
+- Attack surface summary: groups open=0, allowlist=1; elevated tools enabled; webhooks and internal hooks disabled; browser control enabled.
+
+No critical issues requiring escalation. Audit completed successfully.

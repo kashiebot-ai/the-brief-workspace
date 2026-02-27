@@ -1,0 +1,105 @@
+{
+  "system": {
+    "name": "AI Toolkit NZ Affiliate System",
+    "version": "1.0.0",
+    "description": "Automated affiliate marketing system for AI productivity tools",
+    "mode": "development",
+    "data_directory": "../content",
+    "reports_directory": "../reports"
+  },
+  "content": {
+    "daily_article_target": 2,
+    "comparison_articles_per_week": 1,
+    "auto_generate_outlines": true,
+    "auto_write_articles": true,
+    "article_templates": ["product_review", "comparison", "tutorial"],
+    "review_before_publishing": true,
+    "default_categories": ["AI Tools", "Productivity", "Software Reviews"]
+  },
+  "wordpress": {
+    "enabled": false,
+    "base_url": "https://your-wordpress-site.com",
+    "username": "admin",
+    "password": "your_application_password",
+    "default_status": "draft",
+    "auto_publish": false,
+    "category_mapping": {
+      "Productivity": 1,
+      "AI Writing": 2,
+      "Graphic Design": 3,
+      "Email Marketing": 4,
+      "CRM/Marketing": 5,
+      "Project Management": 6,
+      "AI Copywriting": 7,
+      "AI Video": 8,
+      "Writing Assistant": 9,
+      "Screen Recording": 10,
+      "Scheduling": 11,
+      "E-commerce": 12,
+      "Web Hosting": 13,
+      "Freelance Marketplace": 14,
+      "Cryptocurrency": 15,
+      "Marketing Education": 16
+    }
+  },
+  "social_media": {
+    "enabled": false,
+    "platforms": ["twitter", "linkedin"],
+    "auto_share_new_articles": false,
+    "share_delay_hours": 24,
+    "twitter": {
+      "enabled": false,
+      "consumer_key": "your_consumer_key",
+      "consumer_secret": "your_consumer_secret",
+      "access_token": "your_access_token",
+      "access_token_secret": "your_access_token_secret"
+    },
+    "linkedin": {
+      "enabled": false,
+      "client_id": "your_client_id",
+      "client_secret": "your_client_secret",
+      "access_token": "your_access_token"
+    }
+  },
+  "affiliate_programs": {
+    "data_file": "../affiliate_programs.csv",
+    "priority_criteria": ["commission_rate", "nz_access", "recurring"],
+    "min_commission_rate": 20,
+    "require_nz_access": true,
+    "auto_research_new_programs": false
+  },
+  "scheduling": {
+    "daily_workflow_time": "09:00",
+    "weekly_report_day": "sunday",
+    "content_audit_frequency": "weekly",
+    "performance_review_frequency": "monthly"
+  },
+  "analytics": {
+    "track_clicks": false,
+    "track_conversions": false,
+    "track_revenue": false,
+    "simulation_mode": true,
+    "simulated_ctr": 2.5,
+    "simulated_conversion_rate": 1.2,
+    "simulated_avg_commission": 35.0
+  },
+  "notifications": {
+    "email_alerts": false,
+    "telegram_alerts": false,
+    "daily_summary": true,
+    "weekly_report": true,
+    "new_high_commission_programs": true
+  },
+  "security": {
+    "encrypt_passwords": false,
+    "backup_data": true,
+    "backup_frequency": "daily"
+  },
+  "notes": [
+    "Set mode to 'production' when ready to go live",
+    "Enable WordPress and social media when you have API keys",
+    "Update affiliate_programs.csv with your actual affiliate links",
+    "Review all generated content before publishing",
+    "Start with simulation mode to understand the system workflow"
+  ]
+}

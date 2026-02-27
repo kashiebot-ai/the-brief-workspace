@@ -1,0 +1,131 @@
+{
+  "date": "2026-02-21",
+  "total_articles": 7,
+  "program_coverage": "5/19",
+  "coverage_percentage": 26.31578947368421,
+  "uncovered_programs": [
+    "Canva",
+    "Anyword",
+    "Pictory",
+    "Grammarly",
+    "Loom",
+    "Calendly",
+    "Shopify",
+    "Bluehost",
+    "Fiverr",
+    "CXL",
+    "ConvertKit",
+    "HubSpot"
+  ],
+  "program_coverage_details": {
+    "HeadshotPro": {
+      "has_article": true,
+      "article_count": 2,
+      "articles": [
+        "headshotpro-review-2026-02-21.md",
+        "headshotpro-vs-copy.ai-comparison-2026-02-21.md"
+      ]
+    },
+    "Copy.ai": {
+      "has_article": true,
+      "article_count": 2,
+      "articles": [
+        "copy.ai-review-2026-02-21.md",
+        "headshotpro-vs-copy.ai-comparison-2026-02-21.md"
+      ]
+    },
+    "Canva": {
+      "has_article": false,
+      "article_count": 0,
+      "articles": []
+    },
+    "Notion": {
+      "has_article": true,
+      "article_count": 2,
+      "articles": [
+        "notion-review-2026-02-21.md",
+        "notion-vs-clickup-comparison-2026-02-21.md"
+      ]
+    },
+    "ClickUp": {
+      "has_article": true,
+      "article_count": 2,
+      "articles": [
+        "clickup-review-2026-02-21.md",
+        "notion-vs-clickup-comparison-2026-02-21.md"
+      ]
+    },
+    "Jasper": {
+      "has_article": true,
+      "article_count": 1,
+      "articles": [
+        "jasper-review-2026-02-21.md"
+      ]
+    },
+    "Anyword": {
+      "has_article": false,
+      "article_count": 0,
+      "articles": []
+    },
+    "Pictory": {
+      "has_article": false,
+      "article_count": 0,
+      "articles": []
+    },
+    "Grammarly": {
+      "has_article": false,
+      "article_count": 0,
+      "articles": []
+    },
+    "Loom": {
+      "has_article": false,
+      "article_count": 0,
+      "articles": []
+    },
+    "Calendly": {
+      "has_article": false,
+      "article_count": 0,
+      "articles": []
+    },
+    "Shopify": {
+      "has_article": false,
+      "article_count": 0,
+      "articles": []
+    },
+    "Bluehost": {
+      "has_article": false,
+      "article_count": 0,
+      "articles": []
+    },
+    "Fiverr": {
+      "has_article": false,
+      "article_count": 0,
+      "articles": []
+    },
+    "Kraken": {
+      "has_article": false,
+      "article_count": 0,
+      "articles": []
+    },
+    "CXL": {
+      "has_article": false,
+      "article_count": 0,
+      "articles": []
+    },
+    "PartnerStack": {
+      "has_article": false,
+      "article_count": 0,
+      "articles": []
+    },
+    "ConvertKit": {
+      "has_article": false,
+      "article_count": 0,
+      "articles": []
+    },
+    "HubSpot": {
+      "has_article": false,
+      "article_count": 0,
+      "articles": []
+    }
+  }
+}

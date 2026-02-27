@@ -1,0 +1,20 @@
+{
+  "twitter": {
+    "consumer_key": "your_consumer_key_here",
+    "consumer_secret": "your_consumer_secret_here",
+    "access_token": "your_access_token_here",
+    "access_token_secret": "your_access_token_secret_here",
+    "enabled": false,
+    "note": "Get keys from developer.twitter.com"
+  },
+  "linkedin": {
+    "client_id": "your_linkedin_client_id",
+    "client_secret": "your_linkedin_client_secret",
+    "access_token": "your_linkedin_access_token",
+    "enabled": false,
+    "note": "Get keys from linkedin.com/developers"
+  },
+  "mock_mode": true,
+  "auto_post": false,
+  "note": "Set mock_mode to false and enable platforms when ready to post live."
+}
