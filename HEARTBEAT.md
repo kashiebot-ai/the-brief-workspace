@@ -1,6 +1,6 @@
-# HEARTBEAT.md - Planning HQ (Strategy & Orchestration)
+# HEARTBEAT.md - The Brief (Planning HQ)
 
-> 🎯 Decide here. Spawn execution here. Work flows to production automatically.
+> 🎯 Everything for The Brief happens here. Decisions, builds, content, edits — one chat.
 
 ---
 
@@ -8,86 +8,84 @@
 
 - Strategy discussions, "should we do X?"
 - Naming, branding, positioning decisions
-- Scope changes and feature decisions
-- Spawning Codex builds (I start work from here)
-- Reviewing progress reports from production
-- System-wide settings, new project spins
+- Spawning Codex builds
+- Content drafts and reviews
+- "Edit this page"
+- Technical work, bug fixes
+- Monitoring updates, "what's happening in Parliament?"
+- Publishing decisions
 
-## ❌ Not For
+## ❌ Not For (→ Use DM)
 
-- Content drafts for review (→ the-brief production)
-- "Review this text" (→ the-brief production)
-- Technical bug reports (→ the-brief production)
-- "Publish this now" (→ the-brief production)
+- System-wide settings (OpenClaw config, model changes)
+- Other projects entirely
+- Personal tasks unrelated to The Brief
 
 ---
 
 ## 📝 Rule
 
-**Decide in Planning HQ → I spawn execution immediately → Progress reports to the-brief production → You review there**
-
-No manual chat switching. I handle the handoff.
+**One chat for The Brief. Workspace files are shared. Edit from here anytime.**
 
 ---
 
-## 🔄 Daily Check (Planning HQ)
+## 🔄 Daily Check
 
 ### Active Projects
-- [ ] **The Brief website build** — Codex session status?
-- [ ] **Content pipeline** — New explainers needed?
-- [ ] **Quiz development** — Questions drafted?
+- [ ] **The Brief website** — Status? Next features needed?
+- [ ] **Content pipeline** — Explainers queued? Drafts ready?
+- [ ] **Quiz development** — Questions drafted? Scoring logic?
+- [ ] **Parliament monitoring** — New announcements? Bills to cover?
 
-### Strategic Items
-- [ ] Domain acquisition update?
-- [ ] Name finalization needed?
-- [ ] Scope decisions pending?
+### Build/Technical
+- [ ] Code changes needed?
+- [ ] Deployment issues?
+- [ ] Design updates?
 
-### Cross-Chat Monitoring
-- [ ] Check the-brief production for blockers
-- [ ] Check the-brief production for completed work
-- [ ] Any work stalled waiting for decisions?
+### Content
+- [ ] Drafts for review?
+- [ ] Explainers to publish?
+- [ ] Edits requested?
 
 ---
 
 ## 📋 Current Work Queue
 
-**Active Codex Builds:**
-- [ ] **The Brief website** — Spawned [date], building Next.js + Sanity
+**Active Builds:**
+- [ ] Website scaffold (Next.js + Sanity) — ✅ Complete, ready for iteration
+
+**Content:**
+- [ ] First explainer — "How Parliament Works" (awaiting review)
+- [ ] Quiz questions — Draft needed
 
 **Pending Decisions:**
 - [ ] Final name confirmation
 - [ ] Domain acquisition result
-- [ ] Quiz question approval
-
-**Waiting on User:**
-- [ ] First explainer review (in the-brief production)
 
 ---
 
-## 🚀 Spawn Execution (How It Works)
+## 🚀 How Work Flows
 
-When you say "build this" or "start this" in Planning HQ:
+**You say:** "Build X" or "Draft Y"  
+**I do:** Spawn Codex or write directly  
+**Result:** Files in workspace, I report here  
+**You review:** "Show me" or "Change Z"  
+**I iterate:** Edit files, report back
 
-1. I immediately spawn Codex session
-2. Work happens automatically (1 hour to overnight)
-3. Progress reports go to the-brief production chat
-4. You review results there
-5. I monitor via heartbeat and report issues here
-
-**No friction. No manual chat switching.**
+**Simple. One chat. No switching.**
 
 ---
 
 ## 🚨 Blockers
 
-Report immediately if:
+Report immediately:
 - Codex build failed/stalled
-- Strategic decision needed to unblock production
-- Scope changes requested mid-build
+- Strategic decision needed to proceed
 - Domain/hosting blocking launch
+- Content direction unclear
 
 ---
 
 **Last updated:** 2026-02-28
 **Next check:** Daily during active work
-**Active build:** The Brief website (in progress)
+**Active:** The Brief website (scaffold complete)

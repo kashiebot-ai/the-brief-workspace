@@ -124,13 +124,13 @@
 3. **Update pipeline:** Always update `CONTENT_PIPELINE.md` with status
 4. **Track versions:** Include Status, Last Updated, Review Notes in file
 
-### Two-Chat System (CRITICAL)
-| Chat | Purpose | Examples |
-|------|---------|----------|
-| **Planning HQ** (this chat) | Strategy, decisions, brainstorming | "Should we do X?", naming, scope |
-| **the-brief** | Production, execution, drafts | "Review this", "Publish now", builds |
+### Chat Setup (Simplified 2026-02-28)
+| Chat | Purpose |
+|------|---------|
+| **Planning HQ** | Everything The Brief — decisions, builds, content, edits |
+| **DM (this chat)** | System settings, other projects, personal |
 
-**Rule:** Deciding what to build → Planning HQ. Building it → the-brief.
+**Rule:** One chat for The Brief. Files live in workspace, editable from anywhere.
 
 ### Never Again
 - ❌ Keep drafts only in chat
