@@ -1,78 +1,93 @@
-# HEARTBEAT.md - The Brief (Production & Execution)
+# HEARTBEAT.md - Planning HQ (Strategy & Orchestration)
 
-> 🔨 This is where work gets done. Bring decisions from Planning HQ. Deliver finished work here.
+> 🎯 Decide here. Spawn execution here. Work flows to production automatically.
 
 ---
 
 ## ✅ Good For
 
-- Content drafts for review
-- Quiz questions and copy
-- "Publish this now"
-- Technical issues, bugs
-- "Review this explainer"
-- Completed work delivered
+- Strategy discussions, "should we do X?"
+- Naming, branding, positioning decisions
+- Scope changes and feature decisions
+- Spawning Codex builds (I start work from here)
+- Reviewing progress reports from production
+- System-wide settings, new project spins
 
 ## ❌ Not For
 
-- "Should we do a quiz?" (→ Planning HQ)
-- "What should we name it?" (→ Planning HQ)
-- Strategy debates (→ Planning HQ)
+- Content drafts for review (→ the-brief production)
+- "Review this text" (→ the-brief production)
+- Technical bug reports (→ the-brief production)
+- "Publish this now" (→ the-brief production)
 
 ---
 
 ## 📝 Rule
 
-**Bring me decisions from Planning HQ. I bring you finished work here.**
+**Decide in Planning HQ → I spawn execution immediately → Progress reports to the-brief production → You review there**
 
-⏰ Overnight work happens here. Check in the morning.
+No manual chat switching. I handle the handoff.
 
 ---
 
-## 🔄 Daily Production Check
+## 🔄 Daily Check (Planning HQ)
 
-### Content Pipeline
-- [ ] Drafts queued for review?
-- [ ] Explainers ready to publish?
-- [ ] Quiz questions drafted?
-- [ ] Copy needs editing?
+### Active Projects
+- [ ] **The Brief website build** — Codex session status?
+- [ ] **Content pipeline** — New explainers needed?
+- [ ] **Quiz development** — Questions drafted?
 
-### Technical
-- [ ] Site build issues?
-- [ ] Deployment blockers?
-- [ ] Bug fixes needed?
+### Strategic Items
+- [ ] Domain acquisition update?
+- [ ] Name finalization needed?
+- [ ] Scope decisions pending?
 
-### Ready to Ship
-- [ ] Content approved → Publish
-- [ ] Quiz tested → Deploy
-- [ ] Site updates → Push live
+### Cross-Chat Monitoring
+- [ ] Check the-brief production for blockers
+- [ ] Check the-brief production for completed work
+- [ ] Any work stalled waiting for decisions?
 
 ---
 
 ## 📋 Current Work Queue
 
-*(Check daily notes for active production items)*
+**Active Codex Builds:**
+- [ ] **The Brief website** — Spawned [date], building Next.js + Sanity
 
-**Active Drafts:**
-- [ ] 
+**Pending Decisions:**
+- [ ] Final name confirmation
+- [ ] Domain acquisition result
+- [ ] Quiz question approval
 
-**In Review:**
-- [ ] 
+**Waiting on User:**
+- [ ] First explainer review (in the-brief production)
 
-**Ready to Publish:**
-- [ ] 
+---
+
+## 🚀 Spawn Execution (How It Works)
+
+When you say "build this" or "start this" in Planning HQ:
+
+1. I immediately spawn Codex session
+2. Work happens automatically (1 hour to overnight)
+3. Progress reports go to the-brief production chat
+4. You review results there
+5. I monitor via heartbeat and report issues here
+
+**No friction. No manual chat switching.**
 
 ---
 
 ## 🚨 Blockers
 
-Report immediately to Planning HQ if:
-- Strategic decision needed to proceed
-- Content direction unclear
-- Missing assets/info from Planning HQ
-- Scope changes requested mid-production
+Report immediately if:
+- Codex build failed/stalled
+- Strategic decision needed to unblock production
+- Scope changes requested mid-build
+- Domain/hosting blocking launch
 
 ---
 
-**Last updated:** 2026-02-27
+**Last updated:** 2026-02-28
 **Next check:** Daily during active work
+**Active build:** The Brief website (in progress)
