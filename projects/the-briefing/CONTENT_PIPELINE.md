@@ -1,36 +1,37 @@
-# Content Pipeline — The Briefing
+# Content Pipeline — The Brief
 
 > What's being worked on, what's next, what's blocked.
 
 ---
 
-## Current Sprint
+## Current Sprint (Week of Feb 28, 2026)
 
 ### In Progress
-- [ ] **Project infrastructure** — Documentation system, decision logs, tracking
-- [ ] **Mission Control update** — Dashboard reflecting new project focus
-- [ ] **Explainer: How Parliament Works** — Draft complete, pending review
+- [~] **Website build** — Next.js + Sanity scaffold complete, needs Sanity project + deploy
+- [~] **First explainer** — "How Parliament Works" drafted, pending review in production chat
+- [ ] **Quiz framework** — Structure built, questions needed
 
 ### Ready to Start
-- [ ] **Name/branding decision** — Finalize "The Briefing" or alternatives
-- [ ] **Tech stack decision** — Next.js + Sanity vs alternatives
-- [ ] **MVP scope** — Define v1.0 feature set
-- [ ] **Explainer review** — Review parliament explainer draft, approve/revise
+- [ ] **Quiz questions** — Draft 15-20 values questions for VoteFinder
+- [ ] **Second explainer** — Choose next topic (suggest: "How Laws Are Made")
+- [ ] **Sanity setup** — Create project, configure env, deploy studio
 
 ### Backlog
-- [ ] **Content back-digest** — Summarize recent parliament/council decisions
-- [ ] **Landing page** — Email capture, value prop
+- [ ] **Content back-digest** — Summarize recent Parliament/council decisions
+- [ ] **Newsletter template** — ConvertKit/Buttondown setup
 - [ ] **Monitoring setup** — Parliament/council agenda scrapers
-- [ ] **First newsletter issue** — Template + content
+- [ ] **Landing page polish** — Email capture, value prop refinement
 
 ---
 
 ## Content Ideas (Unprioritized)
 
 ### Explainer Series
-- "How Parliament Actually Works" (3-part)
-- "Reading a Bill: The 5-Minute Guide"
-- "Your MP's Voting Record: What It Actually Means"
+- ✅ "How Parliament Actually Works" (drafted)
+- [ ] "Reading a Bill: The 5-Minute Guide"
+- [ ] "Your MP's Voting Record: What It Actually Means"
+- [ ] "MMP Explained (Without the Confusion)"
+- [ ] "Budget 2026: What Matters for You"
 
 ### Weekly Digest Sections
 - This Week in Parliament (votes, debates, bill progressions)
@@ -48,14 +49,35 @@
 
 ---
 
+## Decisions Made ✅
+
+| Decision | Date | Status |
+|----------|------|--------|
+| Name | Feb 28 | "The Brief" (site) / "The Briefing" (newsletter) — final TBD |
+| Tech stack | Feb 28 | Next.js 14 + Sanity CMS |
+| Scope | Feb 28 | Explainers + quiz first, MP tracking later |
+| Domain | Feb 28 | Build on temp URL, migrate when acquired |
+| Build temp URL | Feb 28 | the-brief-demo.vercel.app |
+
+---
+
 ## Blockers
 
 | Blocker | Impact | Resolution |
 |---------|--------|------------|
-| Name not finalized | Can't buy domain | Need decision |
-| Tech stack unclear | Can't start build | Need decision |
-| Monetization model TBD | No revenue plan | Research needed |
+| Sanity project not created | Can't deploy | User to create at sanity.io (5 min) |
+| Domain negotiation | Can't launch on final URL | User handling, build on temp for now |
+| Quiz questions not drafted | Can't build VoteFinder | Need 15-20 values questions |
 
 ---
 
-*Last updated: 2026-02-27*
+## Publishing Cadence
+
+- **Week 1-4:** 3-5 explainers (establish voice)
+- **Month 1-2:** 1-2 explainers/week
+- **Month 3+:** Consistent weekly publishing
+
+---
+
+*Last updated: 2026-03-01*
+*Election: November 7, 2026 (250 days)*

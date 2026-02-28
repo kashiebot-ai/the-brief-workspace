@@ -7,7 +7,7 @@ export default defineConfig({
   name: 'default',
   title: 'The Brief CMS',
 
-  projectId: process.env.SANITY_STUDIO_PROJECT_ID || '',
+  projectId: '72hng9ka',
   dataset: process.env.SANITY_STUDIO_DATASET || 'production',
 
   plugins: [deskTool(), visionTool()],

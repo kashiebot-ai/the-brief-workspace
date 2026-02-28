@@ -104,3 +104,6 @@ npx sanity deploy
 ## 📄 License
 
 MIT
+# Auto-deploy test - Sat Feb 28 17:52:43 NZDT 2026
+Auto-deploy test - fixed email
+Test commit with correct email
