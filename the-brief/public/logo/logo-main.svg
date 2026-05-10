@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
+  <!-- The Brief - Main Logo -->
+  <!-- Icon -->
+  <g transform="translate(10, 10)">
+    <rect width="40" height="40" rx="10" fill="#1e3a5f"/>
+    <!-- Stylized fern/document -->
+    <path d="M20 8 C17 14, 14 20, 12 26 C11 30, 10 34, 12 36 C13 35, 15 34, 17 33 C18 35, 19 36, 20 36 C21 36, 22 35, 23 33 C25 34, 27 35, 28 36 C30 34, 29 30, 28 26 C26 20, 23 14, 20 8 Z" fill="#c0c0c0"/>
+    <path d="M20 15 C19 19, 18 23, 17 27 C17 29, 17 31, 18 33 C18 32, 19 32, 20 32 C21 32, 22 32, 22 33 C23 31, 23 29, 23 27 C22 23, 21 19, 20 15 Z" fill="#ffffff"/>
+  </g>
+  <!-- Text -->
+  <text x="60" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#1e3a5f">The Brief</text>
+</svg>

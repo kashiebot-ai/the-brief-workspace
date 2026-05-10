@@ -1,0 +1,194 @@
+================================================================================
+THE BRIEF - NEW ZEALAND POLITICS WITHOUT THE SPIN
+================================================================================
+
+Plain Text Content Export for AI/LLM Consumption
+Generated: 2026-03-02T10:42:00.083Z
+Website: https://thebrief.nz
+Language: English (New Zealand)
+Region: New Zealand
+
+================================================================================
+ABOUT THIS SITE
+================================================================================
+
+The Brief is an independent, reader-funded political news source for New 
+Zealand. We provide clear explainers on bills, budgets, and elections — 
+no jargon, no bias, just facts.
+
+Our mission is to help New Zealanders understand what Parliament is actually 
+doing so they can vote with confidence and hold power to account.
+
+Key Features:
+- Plain English explainers on political topics
+- VoteFinder quiz to match your values with political parties
+- MP lookup tool to find your representative
+- Non-partisan, independent journalism
+
+================================================================================
+TABLE OF CONTENTS
+================================================================================
+
+Total Explainers: 6
+
+1. What is Artificial Intelligence? (technology)
+2. Understanding Inflation (business)
+3. The Electoral College Explained (politics)
+4. Climate Change: The Basics (science)
+5. What is Cryptocurrency? (technology)
+6. The Filibuster: A Senate Tradition (politics)
+
+================================================================================
+FULL CONTENT
+================================================================================
+
+
+--------------------------------------------------------------------------------
+WHAT IS ARTIFICIAL INTELLIGENCE?
+--------------------------------------------------------------------------------
+
+Category: technology
+Reading Time: 5 minutes
+URL: https://thebrief.nz/explainer/what-is-artificial-intelligence
+Published: 2026-03-02T10:42:00.082Z
+
+SUMMARY:
+A beginner-friendly guide to understanding AI, machine learning, and how these technologies are reshaping our world.
+
+KEY POINTS:
+• AI refers to computer systems that can perform tasks requiring human intelligence
+• Machine learning is a subset of AI where systems learn from data
+• Neural networks are inspired by the human brain structure
+
+--------------------------------------------------------------------------------
+
+
+
+--------------------------------------------------------------------------------
+UNDERSTANDING INFLATION
+--------------------------------------------------------------------------------
+
+Category: business
+Reading Time: 4 minutes
+URL: https://thebrief.nz/explainer/understanding-inflation
+Published: 2026-03-02T10:42:00.082Z
+
+SUMMARY:
+Why prices are rising and what it means for your wallet. A simple breakdown of economic forces at play.
+
+KEY POINTS:
+• Inflation is the rate at which prices increase over time
+• Central banks use interest rates to manage inflation
+• High inflation reduces purchasing power
+
+--------------------------------------------------------------------------------
+
+
+
+--------------------------------------------------------------------------------
+THE ELECTORAL COLLEGE EXPLAINED
+--------------------------------------------------------------------------------
+
+Category: politics
+Reading Time: 6 minutes
+URL: https://thebrief.nz/explainer/electoral-college-explained
+Published: 2026-03-02T10:42:00.082Z
+
+SUMMARY:
+How the US presidential election really works. Why the popular vote does not always decide the winner.
+
+KEY POINTS:
+• The Electoral College has 538 electors
+• A candidate needs 270 electoral votes to win
+• Each state gets electors based on congressional representation
+
+--------------------------------------------------------------------------------
+
+
+
+--------------------------------------------------------------------------------
+CLIMATE CHANGE: THE BASICS
+--------------------------------------------------------------------------------
+
+Category: science
+Reading Time: 7 minutes
+URL: https://thebrief.nz/explainer/climate-change-basics
+Published: 2026-03-02T10:42:00.082Z
+
+SUMMARY:
+The science behind global warming, its impacts, and what we can do about it.
+
+KEY POINTS:
+• Greenhouse gases trap heat in the atmosphere
+• Global temperatures have risen 1.1°C since pre-industrial times
+• Urgent action is needed to limit warming to 1.5°C
+
+--------------------------------------------------------------------------------
+
+
+
+--------------------------------------------------------------------------------
+WHAT IS CRYPTOCURRENCY?
+--------------------------------------------------------------------------------
+
+Category: technology
+Reading Time: 5 minutes
+URL: https://thebrief.nz/explainer/what-is-cryptocurrency
+Published: 2026-03-02T10:42:00.082Z
+
+SUMMARY:
+Bitcoin, blockchain, and the future of money. Making sense of digital currencies.
+
+KEY POINTS:
+• Cryptocurrency is digital money using cryptography for security
+• Blockchain technology records all transactions publicly
+• Bitcoin was the first cryptocurrency, created in 2009
+
+--------------------------------------------------------------------------------
+
+
+
+--------------------------------------------------------------------------------
+THE FILIBUSTER: A SENATE TRADITION
+--------------------------------------------------------------------------------
+
+Category: politics
+Reading Time: 4 minutes
+URL: https://thebrief.nz/explainer/the-filibuster-explained
+Published: 2026-03-02T10:42:00.082Z
+
+SUMMARY:
+Why one senator can hold up legislation. The history and controversy of this procedural tool.
+
+KEY POINTS:
+• A filibuster allows unlimited debate to delay legislation
+• The cloture rule requires 60 votes to end debate
+• The filibuster has been used for over 150 years
+
+--------------------------------------------------------------------------------
+
+================================================================================
+END OF CONTENT
+================================================================================
+
+Additional Resources:
+- Homepage: https://thebrief.nz
+- All Explainers: https://thebrief.nz/explainer
+- VoteFinder Quiz: https://thebrief.nz/quiz
+- MP Lookup: https://thebrief.nz/mp-lookup
+- About Us: https://thebrief.nz/about
+- Methodology: https://thebrief.nz/methodology
+- Contact: https://thebrief.nz/contact
+
+API Endpoints:
+- Explainers API: https://thebrief.nz/api/content/explainers
+- Parties API: https://thebrief.nz/api/content/parties
+- Sitemap: https://thebrief.nz/sitemap.xml
+- LLM Discovery: https://thebrief.nz/llms.txt
+
+Contact:
+- General: https://thebrief.nz/contact
+- Corrections: corrections@thebrief.nz
+
+Last Updated: 2026-03-02T10:42:00.083Z
+================================================================================

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Favicon: Tick + bubble -->
+  <defs>
+    <style>
+      @media (prefers-color-scheme: dark) {
+        .icon { fill: none; stroke: #ffffff; }
+      }
+      @media (prefers-color-scheme: light) {
+        .icon { fill: none; stroke: #1a1a1a; }
+      }
+    </style>
+  </defs>
+  
+  <!-- Speech bubble -->
+  <rect class="icon" x="6" y="6" width="20" height="16" rx="4" stroke-width="2"/>
+  
+  <!-- Bubble tail -->
+  <path class="icon" d="M 14 22 L 12 27 L 16 23" stroke-width="2" stroke-linejoin="round"/>
+  
+  <!-- Check mark -->
+  <path class="icon" d="M 11 14 L 14 17 L 21 9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

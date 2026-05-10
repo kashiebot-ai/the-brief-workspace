@@ -16,10 +16,22 @@ export default function Header() {
               Home
             </Link>
             <Link
+              href="/bills"
+              className="text-gray-700 hover:text-indigo-600 font-medium transition-colors"
+            >
+              Bills
+            </Link>
+            <Link
               href="/explainer"
               className="text-gray-700 hover:text-indigo-600 font-medium transition-colors"
             >
               Explainers
+            </Link>
+            <Link
+              href="/mp-lookup"
+              className="text-gray-700 hover:text-indigo-600 font-medium transition-colors"
+            >
+              Find Your MP
             </Link>
             <Link
               href="/quiz"

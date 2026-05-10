@@ -33,7 +33,7 @@ export const PARTIES = [
 export const QUESTIONS: Question[] = [
   {
     id: 'housing-affordability',
-    question: 'Housing affordability should be the government\'s top priority, even if it means increasing taxes on property investors.',
+    question: 'We should make housing more affordable, even if property investors pay higher taxes.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['Labour', 'Greens', 'Te Pati Maori'] },
       { label: 'Agree', value: 4, parties: ['Labour', 'Greens'] },
@@ -44,7 +44,7 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'climate-action',
-    question: 'New Zealand should take stronger climate action, even if it costs jobs in traditional industries like farming.',
+    question: 'We should take stronger action on climate change, even if it affects farming and other industries.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['Greens', 'Te Pati Maori'] },
       { label: 'Agree', value: 4, parties: ['Labour', 'Greens'] },
@@ -55,7 +55,7 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'tax-cuts',
-    question: 'Taxes should be cut across the board, even if it means reducing government spending on social services.',
+    question: 'We should pay less tax, even if it means cutting back on public services like hospitals and schools.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['ACT', 'National'] },
       { label: 'Agree', value: 4, parties: ['National'] },
@@ -66,7 +66,7 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'co-governance',
-    question: 'Māori should have guaranteed co-governance rights over resources and decisions affecting their communities.',
+    question: 'Māori communities should have a direct say in decisions that affect their people and resources.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['Te Pati Maori', 'Greens'] },
       { label: 'Agree', value: 4, parties: ['Labour', 'Te Pati Maori'] },
@@ -77,7 +77,7 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'immigration',
-    question: 'Immigration levels should be reduced to ease pressure on housing and infrastructure.',
+    question: 'We should reduce immigration to ease pressure on housing and roads.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['NZ First', 'Te Pati Maori'] },
       { label: 'Agree', value: 4, parties: ['NZ First'] },
@@ -88,7 +88,7 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'healthcare-privatization',
-    question: 'Private healthcare options should be expanded to reduce pressure on the public system.',
+    question: 'People should have more private healthcare options if they want them.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['ACT', 'National'] },
       { label: 'Agree', value: 4, parties: ['National'] },
@@ -99,7 +99,7 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'benefits-increase',
-    question: 'Welfare benefits should be significantly increased to ensure everyone can afford basic necessities.',
+    question: 'People on benefits should get more money so they can afford basic necessities.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['Greens', 'Te Pati Maori'] },
       { label: 'Agree', value: 4, parties: ['Labour', 'Greens'] },
@@ -110,7 +110,7 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'law-order',
-    question: 'Tougher sentencing and more police are needed to address rising crime, even if it costs more.',
+    question: 'We need harsher punishments and more police to tackle crime, even if it costs more.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['ACT', 'National', 'NZ First'] },
       { label: 'Agree', value: 4, parties: ['National', 'NZ First'] },
@@ -121,7 +121,7 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'free-education',
-    question: 'University and tertiary education should be free for all New Zealanders.',
+    question: 'University and trade training should be free for everyone.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['Greens', 'Te Pati Maori'] },
       { label: 'Agree', value: 4, parties: ['Labour', 'Greens'] },
@@ -132,7 +132,7 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'foreign-investment',
-    question: 'Foreign companies should be restricted from buying NZ land and strategic assets.',
+    question: 'Foreign companies should be restricted from buying New Zealand land and important assets.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['NZ First', 'Te Pati Maori', 'Greens'] },
       { label: 'Agree', value: 4, parties: ['NZ First', 'Labour'] },
@@ -143,7 +143,7 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'treaty-principles',
-    question: 'The Treaty of Waitangi principles should be embedded in all government decision-making.',
+    question: 'The Treaty of Waitangi should guide all government decisions.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['Te Pati Maori', 'Greens', 'Labour'] },
       { label: 'Agree', value: 4, parties: ['Labour', 'Greens'] },
@@ -154,7 +154,7 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'pharmac-budget',
-    question: 'Pharmac\'s budget should be increased, even if it means raising taxes or cutting other spending.',
+    question: 'Everyone should afford the medicine they need, even if we pay more tax.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['Greens', 'Labour', 'Te Pati Maori'] },
       { label: 'Agree', value: 4, parties: ['Labour', 'National'] },
@@ -165,7 +165,7 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'regional-development',
-    question: 'Government should invest more in regional development, not just focus on Auckland and Wellington.',
+    question: 'The government should invest more in rural towns and regions, not just big cities.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['NZ First', 'Te Pati Maori'] },
       { label: 'Agree', value: 4, parties: ['National', 'NZ First'] },
@@ -176,7 +176,7 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'carbon-tax',
-    question: 'A carbon tax is the best way to reduce emissions, even if it increases fuel and energy prices.',
+    question: 'We should put a price on carbon emissions, even if it makes petrol and power more expensive.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['Greens'] },
       { label: 'Agree', value: 4, parties: ['Greens', 'Labour'] },
@@ -187,7 +187,7 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'worker-rights',
-    question: 'Worker protections and union rights should be strengthened, even if it makes business more expensive.',
+    question: 'Workers should have stronger protections and union rights, even if it costs businesses more.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['Labour', 'Greens', 'Te Pati Maori'] },
       { label: 'Agree', value: 4, parties: ['Labour'] },
@@ -198,7 +198,7 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'defence-spending',
-    question: 'Defence spending should be increased to meet global security challenges.',
+    question: 'We should spend more on defence to stay safe in an uncertain world.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['National', 'ACT'] },
       { label: 'Agree', value: 4, parties: ['National'] },
@@ -209,7 +209,7 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'three-waters',
-    question: 'Water infrastructure should be managed by central government entities, not local councils.',
+    question: 'Clean water and pipes should be managed by central government, not local councils.',
     description: 'The previous government created centralised water entities; the current government is restoring council control.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['Labour', 'Greens'] },
@@ -221,8 +221,8 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'smoking-ban',
-    question: 'The phased smoking ban (prohibiting tobacco sales to those born after 2008) should be implemented.',
-    description: 'The previous Labour government passed this law; the current National-led government has repealed it.',
+    question: 'We should make it harder for young people to start smoking.',
+    description: 'The previous Labour government passed a law banning tobacco sales to those born after 2008; the current National-led government has repealed it.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['Labour', 'Greens', 'Te Pati Maori'] },
       { label: 'Agree', value: 4, parties: ['Labour'] },
@@ -233,7 +233,7 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'overseas-buyers',
-    question: 'Overseas buyers should be banned from purchasing existing NZ homes.',
+    question: 'Overseas buyers should be banned from buying existing homes here.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['NZ First', 'Te Pati Maori', 'Labour'] },
       { label: 'Agree', value: 4, parties: ['Labour', 'Greens'] },
@@ -244,7 +244,7 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'government-size',
-    question: 'The government should be smaller and do less, leaving more to individuals and businesses.',
+    question: 'The government should be smaller and let people and businesses make more decisions.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['ACT'] },
       { label: 'Agree', value: 4, parties: ['ACT', 'National'] },
@@ -255,7 +255,7 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'charter-schools',
-    question: 'Charter schools (privately operated but publicly funded) should be expanded as an alternative to state schools.',
+    question: 'Privately run but publicly funded schools should be an option alongside state schools.',
     description: 'Charter schools were introduced in 2014, cancelled by Labour in 2018, and reintroduced by the current government in 2024.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['ACT', 'National'] },
@@ -267,7 +267,7 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'gang-legislation',
-    question: 'Police should have greater powers to target gang members, including banning gang patches in public.',
+    question: 'Police should have more powers to target gangs, including banning gang patches in public.',
     description: 'The current government has introduced legislation banning gang patches and allowing warrantless searches of gang members.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['ACT', 'National'] },
@@ -279,7 +279,7 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'public-transport',
-    question: 'Public transport should be heavily subsidised or free to encourage use and reduce emissions.',
+    question: 'Public transport should be cheap or free to get more people using it.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['Greens', 'Te Pati Maori'] },
       { label: 'Agree', value: 4, parties: ['Labour', 'Greens'] },
@@ -290,7 +290,7 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'oil-gas-exploration',
-    question: 'New oil and gas exploration permits should be banned to meet climate targets.',
+    question: 'We should stop letting companies drill for new oil and gas.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['Greens', 'Te Pati Maori'] },
       { label: 'Agree', value: 4, parties: ['Labour', 'Greens'] },
@@ -301,7 +301,7 @@ export const QUESTIONS: Question[] = [
   },
   {
     id: 'superannuation-age',
-    question: 'The age for receiving NZ Superannuation (pension) should be increased from 65.',
+    question: 'People should have to wait longer than 65 to get the pension.',
     options: [
       { label: 'Strongly Agree', value: 5, parties: ['ACT'] },
       { label: 'Agree', value: 4, parties: ['ACT', 'National'] },
@@ -347,12 +347,12 @@ export function calculateResults(answers: Record<string, number>): QuizResult {
   
   // Generate description
   const descriptions: Record<string, string> = {
-    'Labour': 'You align with Labour\'s focus on social welfare, workers\' rights, and moderate progressivism.',
-    'National': 'You align with National\'s centre-right approach to economic management and law and order.',
-    'Greens': 'You align with the Greens\' focus on environmental action, social justice, and progressive policies.',
-    'ACT': 'You align with ACT\'s libertarian approach to lower taxes, smaller government, and personal freedom.',
-    'NZ First': 'You align with NZ First\'s populist, nationalist approach focusing on NZ sovereignty and regional issues.',
-    'Te Pati Maori': 'You align with Te Pati Maori\'s focus on indigenous rights, co-governance, and social equity.'
+    'Labour': 'Your values align with Labour\'s focus on workers\' rights, social investment, and a balanced approach to the economy. You believe government has a role in ensuring fair wages, protecting the vulnerable, and investing in public services like health and education.',
+    'National': 'Your values align with National\'s centre-right approach to economic management. You prioritise business growth, individual responsibility, and fiscal discipline. You believe lower taxes and less regulation create opportunities for all New Zealanders.',
+    'Greens': 'Your values align strongly with the Greens\' focus on climate action, social justice, and systemic change. You believe in bold environmental policies, reducing inequality, and ensuring Māori rights and tikanga are respected.',
+    'ACT': 'Your values align with ACT\'s libertarian philosophy. You believe in personal freedom, smaller government, lower taxes, and free markets. You think individuals should have more choice in education, healthcare, and how they live their lives.',
+    'NZ First': 'Your values align with NZ First\'s populist, nationalist approach. You prioritise New Zealand sovereignty, want immigration carefully managed, and believe government should focus on Kiwi citizens first, especially in regional areas.',
+    'Te Pati Maori': 'Your values align with Te Pati Māori\'s focus on indigenous rights, tino rangatiratanga, and social equity. You believe in Māori self-determination, challenging colonial systems, and addressing structural inequality.'
   }
   
   return {

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Variation 2: Parliament Circle -->
+  <defs>
+    <style>
+      .primary { fill: #2C3E50; }
+      .accent { fill: #5DADE2; }
+      @media (prefers-color-scheme: dark) {
+        .primary { fill: #5DADE2; }
+        .accent { fill: #A0D5F5; }
+      }
+    </style>
+  </defs>
+  
+  <!-- Outer circle -->
+  <circle cx="256" cy="200" r="140" stroke-width="6" class="primary" fill="none"/>
+  
+  <!-- Simplified parliament building (Beehive inspired) -->
+  <g class="primary">
+    <!-- Base -->
+    <rect x="200" y="220" width="112" height="15"/>
+    
+    <!-- Tiers (stepped pyramid effect) -->
+    <rect x="210" y="205" width="92" height="15"/>
+    <rect x="220" y="190" width="72" height="15"/>
+    <rect x="228" y="175" width="56" height="15"/>
+    <rect x="236" y="160" width="40" height="15"/>
+    
+    <!-- Dome/roof -->
+    <ellipse cx="256" cy="155" rx="24" ry="10"/>
+    
+    <!-- Columns (simplified) -->
+    <rect x="215" y="225" width="6" height="20"/>
+    <rect x="235" y="225" width="6" height="20"/>
+    <rect x="256" y="225" width="6" height="20"/>
+    <rect x="276" y="225" width="6" height="20"/>
+    <rect x="296" y="225" width="6" height="20"/>
+  </g>
+  
+  <!-- Typography -->
+  <text x="256" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="600" text-anchor="middle" class="primary">THE BRIEF</text>
+</svg>

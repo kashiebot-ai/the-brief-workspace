@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Concept 1: Silver Fern + Document -->
+  <defs>
+    <style>
+      .logo-dark { fill: #1a1a1a; }
+      .logo-light { fill: #ffffff; }
+      @media (prefers-color-scheme: dark) {
+        .logo-adaptive { fill: #ffffff; }
+      }
+      @media (prefers-color-scheme: light) {
+        .logo-adaptive { fill: #1a1a1a; }
+      }
+    </style>
+  </defs>
+  
+  <!-- Document corner fold -->
+  <path class="logo-adaptive" d="M 40 40 L 160 40 L 160 140 L 140 160 L 40 160 Z" fill="none" stroke="currentColor" stroke-width="3"/>
+  <path class="logo-adaptive" d="M 140 160 L 140 140 L 160 140" fill="none" stroke="currentColor" stroke-width="3"/>
+  
+  <!-- Silver fern fronds integrated into corner -->
+  <path class="logo-adaptive" d="M 150 50 Q 145 60, 148 70 Q 143 65, 140 70 Q 145 75, 148 80 Q 143 78, 138 82 Q 142 88, 145 95" 
+        fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Additional fern details -->
+  <ellipse class="logo-adaptive" cx="148" cy="55" rx="3" ry="5" transform="rotate(-20 148 55)"/>
+  <ellipse class="logo-adaptive" cx="146" cy="65" rx="2.5" ry="4" transform="rotate(-15 146 65)"/>
+  <ellipse class="logo-adaptive" cx="143" cy="75" rx="2.5" ry="4" transform="rotate(-10 143 75)"/>
+  <ellipse class="logo-adaptive" cx="140" cy="85" rx="2" ry="3.5" transform="rotate(-5 140 85)"/>
+  
+  <!-- Text "THE BRIEF" below -->
+  <text class="logo-adaptive" x="100" y="185" font-family="Arial, sans-serif" font-size="18" font-weight="600" text-anchor="middle">THE BRIEF</text>
+</svg>

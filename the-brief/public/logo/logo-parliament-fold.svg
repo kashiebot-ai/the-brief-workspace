@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <style>
+      .logo-primary { fill: #1e40af; }
+      .logo-secondary { fill: #3b82f6; }
+      .logo-accent { fill: #e2e8f0; }
+    </style>
+  </defs>
+  
+  <!-- Newspaper fold effect -->
+  <path d="M40 60 L100 60 L100 140 L40 140 Z" class="logo-accent"/>
+  <path d="M100 60 L160 60 L160 140 L100 140 Z" fill="#f8fafc"/>
+  <line x1="100" y1="60" x2="100" y2="140" stroke="#cbd5e1" stroke-width="2"/>
+  
+  <!-- Parliament building silhouette (simplified Beehive inspired) -->
+  <circle cx="70" cy="90" r="25" class="logo-primary"/>
+  <rect x="55" y="90" width="30" height="35" class="logo-primary"/>
+  <rect x="60" y="115" width="20" height="5" class="logo-secondary"/>
+  
+  <!-- Columns on right side -->
+  <rect x="115" y="75" width="6" height="50" class="logo-primary"/>
+  <rect x="127" y="75" width="6" height="50" class="logo-primary"/>
+  <rect x="139" y="75" width="6" height="50" class="logo-primary"/>
+  <path d="M110 70 L150 70 L145 75 L115 75 Z" class="logo-primary"/>
+  
+  <!-- Text lines suggesting articles -->
+  <line x1="50" y1="130" x2="90" y2="130" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="110" y1="130" x2="150" y2="130" stroke="#64748b" stroke-width="1.5"/>
+</svg>

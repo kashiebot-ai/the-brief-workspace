@@ -1,0 +1,170 @@
+# The Brief - NZ Politics Without The Spin
+
+## Overview
+The Brief is an independent, reader-funded political news source for New Zealand. We provide clear explainers on bills, budgets, and elections — no jargon, no bias, just facts. Our mission is to help New Zealanders understand what Parliament is actually doing so they can vote with confidence and hold power to account.
+
+## Key Pages
+
+### Main Navigation
+- **/** - Homepage with latest explainers, newsletter signup, and featured content
+- **/explainer** - Browse all political explainers by category (Politics, Technology, Business, Science, Health, Culture)
+- **/quiz** - VoteFinder: 20-question quiz to match your values with NZ political parties for the 2026 election
+- **/mp-lookup** - Find your Member of Parliament by address or postcode
+- **/about** - About The Brief: our mission, methodology, and team
+- **/methodology** - How we research, write, and fact-check every explainer
+- **/contact** - Contact form for feedback, corrections, and topic suggestions
+
+### Newsletter
+- **/newsletter/confirmed** - Email subscription confirmation page
+- **/newsletter/unsubscribed** - Email unsubscription confirmation page
+- **/newsletter/error** - Newsletter error handling page
+
+## Content Categories
+
+### Politics & Parliament
+Explainers covering New Zealand government, electoral systems, and parliamentary processes:
+- How MMP (Mixed Member Proportional) voting works
+- The role of the Prime Minister and Cabinet
+- How bills become law
+- Question Time and parliamentary procedure
+
+### Policy Areas
+- Housing affordability and property market policies
+- Climate change and environmental legislation
+- Healthcare and PHARMAC funding
+- Education policy and funding
+- Taxation and government spending
+- Immigration and border policies
+- Law and order, policing, and justice
+- Workers' rights and employment law
+
+### 2026 Election Resources
+- **VoteFinder Quiz** (`/quiz`) - Interactive tool matching voters to parties based on 25 values-based questions covering:
+  - Housing affordability vs. property investor interests
+  - Climate action vs. industry impact
+  - Tax policy and public services
+  - Co-governance and Māori rights
+  - Immigration levels
+  - Healthcare privatisation
+  - Benefit levels and social welfare
+  - Law and order approaches
+  - Education funding models
+  - Foreign investment restrictions
+  - Treaty of Waitangi principles
+  - Defence spending
+  - Three Waters policy
+  - Smoking regulations
+  - Superannuation age
+
+## API Endpoints for AI Consumption
+
+### Content APIs
+- **/api/content/explainers** - JSON array of all explainers with title, summary, category, slug, and reading time
+- **/api/content/parties** - Summary of NZ political party positions on key issues
+- **/sitemap.xml** - XML sitemap with all pages and their priorities
+
+### Newsletter APIs
+- **/api/newsletter/signup** - POST endpoint for email subscriptions
+- **/api/newsletter/confirm** - GET endpoint for subscription confirmation
+- **/api/newsletter/unsubscribe** - GET endpoint for unsubscription
+
+### Open Graph
+- **/api/og** - Dynamic Open Graph image generation for social sharing
+
+## Site Structure for LLMs
+
+### Primary Content Type: Explainers
+Each explainer follows this structure:
+- **Title** - Clear, descriptive headline
+- **Summary** - 1-2 sentence executive summary (visible in listings)
+- **Category** - Organized by topic area
+- **Reading Time** - Estimated time to read (typically 4-7 minutes)
+- **Published Date** - When the explainer was published
+- **Key Points** - "The essentials" bullet list for quick scanning
+- **Article Body** - Full explainer content in plain English
+- **Share Links** - Social sharing buttons
+
+### Schema Markup Implemented
+- **WebSite** - Homepage structured data
+- **Organization** - Publisher information with logo
+- **Article** - Individual explainer pages with headline, description, dates, author
+- **BreadcrumbList** - Navigation breadcrumbs on all pages
+- **FAQPage** - Quiz and methodology pages with Q&A structure
+- **SearchAction** - Site search potential action
+
+## Content Quality Standards
+
+### Writing Principles
+1. **Plain English** - No jargon without explanation
+2. **Three Questions** - Every explainer answers: What is this? Why does it matter? What happens next?
+3. **Source Transparency** - Primary sources cited (Hansard, legislation, official statistics)
+4. **Non-partisan** - No party endorsement; balanced analysis
+5. **5-Minute Read** - All explainers designed for quick consumption
+
+### Fact-Checking Process
+1. Topic selection based on public interest
+2. Research from primary sources (bills, parliamentary records)
+3. Plain English writing
+4. Independent fact-checking
+5. Editorial review for balance and clarity
+6. Corrections policy with transparency
+
+## Data Sources
+
+### Official Sources
+- Parliamentary bills and legislation (legislation.govt.nz)
+- Hansard parliamentary debates
+- Government press releases (beehive.govt.nz)
+- Stats NZ official statistics
+- Treasury reports
+- Reserve Bank of New Zealand data
+- Parliamentary Library research
+- Electoral Commission data
+
+### MPs and Electorates
+- Current MP data and electorate boundaries
+- Voting records and parliamentary attendance
+- Contact information for electorate offices
+
+## Technical Information
+
+### Site Details
+- **Language** - English (New Zealand)
+- **Region** - New Zealand (en-NZ)
+- **Currency** - NZD (New Zealand Dollar)
+- **Timezone** - Pacific/Auckland
+- **Site URL** - https://thebrief.nz
+
+### Technology Stack
+- Next.js 14+ with App Router
+- React with TypeScript
+- Tailwind CSS for styling
+- Sanity CMS for content management
+- Vercel for hosting
+
+## Accessibility
+- Semantic HTML5 structure
+- ARIA labels where appropriate
+- Keyboard navigation support
+- Alt text for images
+- WCAG 2.1 AA compliant design
+- Text-first design - content readable without CSS
+
+## Contact & Feedback
+
+### Corrections
+Email: corrections@thebrief.nz
+Response time: Within 24 hours
+
+### General Inquiries
+Form: /contact
+
+### Topic Suggestions
+We welcome reader suggestions for explainers on confusing political topics.
+
+## Last Updated
+2025-03-02
+
+---
+
+*The Brief is independent and reader-funded. No political party funding. No advertiser influence on coverage.*

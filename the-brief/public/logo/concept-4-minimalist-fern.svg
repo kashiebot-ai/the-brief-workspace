@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Variation 4: Minimalist Fern Mark (favicon-optimized) -->
+  <defs>
+    <style>
+      .primary { fill: #1A5F7A; }
+      .accent { fill: #C0C5CC; }
+      @media (prefers-color-scheme: dark) {
+        .primary { fill: #5DA3BE; }
+        .accent { fill: #E0E3E8; }
+      }
+    </style>
+  </defs>
+  
+  <!-- Ultra-simple geometric fern - 5 leaves -->
+  <g class="primary">
+    <!-- Central stem -->
+    <rect x="250" y="160" width="12" height="200" rx="6"/>
+    
+    <!-- Leaf 1 (top) -->
+    <ellipse cx="230" cy="190" rx="35" ry="18" transform="rotate(-45 230 190)"/>
+    <ellipse cx="282" cy="190" rx="35" ry="18" transform="rotate(45 282 190)"/>
+    
+    <!-- Leaf 2 -->
+    <ellipse cx="220" cy="235" rx="40" ry="20" transform="rotate(-40 220 235)"/>
+    <ellipse cx="292" cy="235" rx="40" ry="20" transform="rotate(40 292 235)"/>
+    
+    <!-- Leaf 3 (center) -->
+    <ellipse cx="210" cy="280" rx="45" ry="22" transform="rotate(-35 210 280)"/>
+    <ellipse cx="302" cy="280" rx="45" ry="22" transform="rotate(35 302 280)"/>
+    
+    <!-- Leaf 4 -->
+    <ellipse cx="220" cy="325" rx="38" ry="19" transform="rotate(-40 220 325)"/>
+    <ellipse cx="292" cy="325" rx="38" ry="19" transform="rotate(40 292 325)"/>
+    
+    <!-- Leaf 5 (bottom - smaller) -->
+    <ellipse cx="235" cy="355" rx="28" ry="14" transform="rotate(-45 235 355)"/>
+    <ellipse cx="277" cy="355" rx="28" ry="14" transform="rotate(45 277 355)"/>
+  </g>
+  
+  <!-- Optional text (can be omitted for icon-only use) -->
+  <text x="256" y="440" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="600" text-anchor="middle" class="primary" opacity="0.9">THE BRIEF</text>
+</svg>

@@ -1,0 +1,50 @@
+name: Daily Bill Scrape and Sync
+
+on:
+  schedule:
+    # Run at 6 AM NZT (18:00 UTC)
+    - cron: '0 18 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  scrape-and-sync:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Install ts-node
+        run: npm install -g ts-node
+        
+      - name: Run bill scraper
+        run: npx ts-node scripts/scrape-parliament-bills.ts
+        
+      - name: Sync bills to Sanity
+        env:
+          NEXT_PUBLIC_SANITY_PROJECT_ID: ${{ secrets.NEXT_PUBLIC_SANITY_PROJECT_ID }}
+          NEXT_PUBLIC_SANITY_DATASET: ${{ secrets.NEXT_PUBLIC_SANITY_DATASET }}
+          NEXT_PUBLIC_SANITY_API_VERSION: '2024-01-01'
+          SANITY_API_TOKEN: ${{ secrets.SANITY_API_TOKEN }}
+        run: npx ts-node scripts/sync-bills-to-sanity.ts
+        
+      - name: Commit updated bills data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/bills-scraped.json
+          git diff --staged --quiet || (git commit -m "Update bills data - $(date +%Y-%m-%d)" && git push)
+          
+      - name: Trigger Vercel Deploy
+        if: ${{ secrets.VERCEL_DEPLOY_HOOK != '' }}
+        run: |
+          curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"

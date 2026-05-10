@@ -1,0 +1,614 @@
+{
+  "scrapedAt": "2026-03-04T20:13:26.102Z",
+  "totalBills": 76,
+  "bills": [
+    {
+      "title": "Building (Earthquake-prone Buildings) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/350162e5-1747-474b-30bb-08de385625f0",
+      "billNumber": "238-1",
+      "stage": "SC",
+      "committee": "Transport and Infrastructure",
+      "lastActivity": "16 Dec 2025"
+    },
+    {
+      "title": "Natural Environment Bill",
+      "url": "https://bills.parliament.nz/v/6/394369fc-5ba2-4d8a-1026-08de369d9192",
+      "billNumber": "234-1",
+      "stage": "SC",
+      "committee": "Environment",
+      "lastActivity": "16 Dec 2025"
+    },
+    {
+      "title": "Commerce (Promoting Competition and Other Matters) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/52da46fc-b9a5-4975-1025-08de369d9192",
+      "billNumber": "237-1",
+      "stage": "SC",
+      "committee": "Economic Development, Science and Innovation",
+      "lastActivity": "16 Dec 2025"
+    },
+    {
+      "title": "Planning Bill",
+      "url": "https://bills.parliament.nz/v/6/ba467863-d6b0-4968-1027-08de369d9192",
+      "billNumber": "235-1",
+      "stage": "SC",
+      "committee": "Environment",
+      "lastActivity": "16 Dec 2025"
+    },
+    {
+      "title": "Public Works Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/889c8a52-0438-4b4b-fd0c-08de2adc1af7",
+      "billNumber": "230-1",
+      "stage": "SC",
+      "committee": "Transport and Infrastructure",
+      "lastActivity": "11 Dec 2025"
+    },
+    {
+      "title": "Crimes Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/20281808-6a50-4adf-8ab2-08de31f3fcb1",
+      "billNumber": "223-1",
+      "stage": "SC",
+      "committee": "Justice",
+      "lastActivity": "11 Dec 2025"
+    },
+    {
+      "title": "Arms Bill",
+      "url": "https://bills.parliament.nz/v/6/e30c016e-d93c-439d-8efa-08de360dad5f",
+      "billNumber": "233-1",
+      "stage": "SC",
+      "committee": "Justice",
+      "lastActivity": "10 Dec 2025"
+    },
+    {
+      "title": "Emergency Management Bill (No 2)",
+      "url": "https://bills.parliament.nz/v/6/cdf180bd-f6c9-4242-1024-08de369d9192",
+      "billNumber": "236-1",
+      "stage": "SC",
+      "committee": "Governance and Administration",
+      "lastActivity": "10 Dec 2025"
+    },
+    {
+      "title": "Infrastructure Funding and Financing Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/328f446a-d8f8-466a-ba46-08de2c75a6e0",
+      "billNumber": "231-1",
+      "stage": "SC",
+      "committee": "Finance and Expenditure",
+      "lastActivity": "09 Dec 2025"
+    },
+    {
+      "title": "Game Animal Council (Herds of Special Interest) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/c38a377c-91ac-4983-68f9-08dd90f2ab46",
+      "billNumber": "151-2",
+      "stage": "CH",
+      "committee": "Environment",
+      "lastActivity": "20 Nov 2025"
+    },
+    {
+      "title": "Meteorological Services (Acquisition and Policies) Legislation Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/c4f84842-6361-40c9-9df7-08de0f6f5e35",
+      "billNumber": "211-1",
+      "stage": "SC",
+      "committee": "Economic Development, Science and Innovation",
+      "lastActivity": "20 Nov 2025"
+    },
+    {
+      "title": "Telecommunications and Other Matters Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/2a142c71-babb-45eb-38eb-08de1017e271",
+      "billNumber": "210-1",
+      "stage": "SC",
+      "committee": "Economic Development, Science and Innovation",
+      "lastActivity": "20 Nov 2025"
+    },
+    {
+      "title": "Education and Training (System Reform) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/65445e46-256b-4800-37f2-08de25831691",
+      "billNumber": "228-1",
+      "stage": "SC",
+      "committee": "Education and Workforce",
+      "lastActivity": "18 Nov 2025"
+    },
+    {
+      "title": "Building and Construction Sector (Self-certification by Plumbers and Drainlayers) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/1c7fdacd-9d4e-4dd6-6c2d-08de20b5b51d",
+      "billNumber": "221-1",
+      "stage": "SC",
+      "committee": "Transport and Infrastructure",
+      "lastActivity": "18 Nov 2025"
+    },
+    {
+      "title": "Building and Construction Sector (Strengthening Occupational Licensing Regimes) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/51e2d885-f3b4-4ad9-6c2e-08de20b5b51d",
+      "billNumber": "224-1",
+      "stage": "SC",
+      "committee": "Transport and Infrastructure",
+      "lastActivity": "18 Nov 2025"
+    },
+    {
+      "title": "Land Transport (Revenue) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/d31385e9-dd9d-4cbd-c52d-08de22297aa7",
+      "billNumber": "226-1",
+      "stage": "SC",
+      "committee": "Transport and Infrastructure",
+      "lastActivity": "18 Nov 2025"
+    },
+    {
+      "title": "Telecommunications Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/82b059cc-7a1d-4a70-38ec-08de1017e271",
+      "billNumber": "212-1",
+      "stage": "SC",
+      "committee": "Economic Development, Science and Innovation",
+      "lastActivity": "13 Nov 2025"
+    },
+    {
+      "title": "Racing Industry (Closure of Greyhound Racing Industry) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/a47d0be3-d1e7-4e52-1917-08de09f8ddba",
+      "billNumber": "208-1",
+      "stage": "SC",
+      "committee": "Primary Production",
+      "lastActivity": "11 Nov 2025"
+    },
+    {
+      "title": "Ngāti Rāhiri Tumutumu Claims Settlement Bill",
+      "url": "https://bills.parliament.nz/v/6/9141944a-c404-479f-d69f-08de1663f0bb",
+      "billNumber": "217-1",
+      "stage": "SC",
+      "committee": "Māori Affairs",
+      "lastActivity": "05 Nov 2025"
+    },
+    {
+      "title": "Offshore Renewable Energy Bill",
+      "url": "https://bills.parliament.nz/v/6/0a590bec-22c7-4492-e701-08dd18052784",
+      "billNumber": "102-2",
+      "stage": "CH",
+      "committee": "Transport and Infrastructure",
+      "lastActivity": "23 Oct 2025"
+    },
+    {
+      "title": "Deepfake Digital Harm and Exploitation Bill",
+      "url": "https://bills.parliament.nz/v/6/41586b19-bece-4e53-94eb-08de11d86e7a",
+      "billNumber": "213-1",
+      "stage": "1",
+      "committee": "",
+      "lastActivity": "23 Oct 2025"
+    },
+    {
+      "title": "Social Media (Age-Restricted Users) Bill",
+      "url": "https://bills.parliament.nz/v/6/68155b1b-c18c-40cb-94ec-08de11d86e7a",
+      "billNumber": "216-1",
+      "stage": "1",
+      "committee": "",
+      "lastActivity": "23 Oct 2025"
+    },
+    {
+      "title": "Life Jackets for Children and Young Persons Bill",
+      "url": "https://bills.parliament.nz/v/6/2e5a2466-5ed8-4380-1880-08dd77d42c62",
+      "billNumber": "143-1",
+      "stage": "SC",
+      "committee": "Transport and Infrastructure",
+      "lastActivity": "22 Oct 2025"
+    },
+    {
+      "title": "Redress System for Abuse in Care Bill",
+      "url": "https://bills.parliament.nz/v/6/04e37b0e-625e-478e-1918-08de09f8ddba",
+      "billNumber": "209-1",
+      "stage": "SC",
+      "committee": "Social Services and Community",
+      "lastActivity": "21 Oct 2025"
+    },
+    {
+      "title": "Local Government (Auckland Council) (Transport Governance) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/29bdf1a7-369d-4bb3-c15f-08ddec037a0c",
+      "billNumber": "201-1",
+      "stage": "SC",
+      "committee": "Transport and Infrastructure",
+      "lastActivity": "17 Sept 2025"
+    },
+    {
+      "title": "Retail Payment System (Ban on Merchant Surcharges) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/76af630c-b8c4-4fab-d38f-08ddf4cc161e",
+      "billNumber": "205-2",
+      "stage": "2",
+      "committee": "Finance and Expenditure",
+      "lastActivity": "16 Sept 2025"
+    },
+    {
+      "title": "Taxation (Annual Rates for 2025–26, Compliance Simplification, and Remedial Measures) Bill",
+      "url": "https://bills.parliament.nz/v/6/b273663f-88d7-4c2b-401d-08dde456f4f0",
+      "billNumber": "199-1",
+      "stage": "SC",
+      "committee": "Finance and Expenditure",
+      "lastActivity": "11 Sept 2025"
+    },
+    {
+      "title": "Drug Overdose (Assistance Protection) Legislation Bill",
+      "url": "https://bills.parliament.nz/v/6/9a67a135-1a72-4fd5-7a12-08ddf0d773dc",
+      "billNumber": "204-1",
+      "stage": "1",
+      "committee": "",
+      "lastActivity": "11 Sept 2025"
+    },
+    {
+      "title": "Summary Offences (Demonstrations Near Residential Premises) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/b49e7971-0040-4d7e-2b43-08ddddd857fa",
+      "billNumber": "195-2",
+      "stage": "2",
+      "committee": "Justice",
+      "lastActivity": "21 Aug 2025"
+    },
+    {
+      "title": "Carter Trust Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/c0a40299-c7f1-4ad1-4dab-08ddd9df4395",
+      "billNumber": "193-2",
+      "stage": "2",
+      "committee": "Social Services and Community",
+      "lastActivity": "20 Aug 2025"
+    },
+    {
+      "title": "Regulatory Systems (Transport) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/77f9069c-1c77-48f4-0125-08dddac05555",
+      "billNumber": "194-2",
+      "stage": "2",
+      "committee": "Transport and Infrastructure",
+      "lastActivity": "19 Aug 2025"
+    },
+    {
+      "title": "Constitution Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/69bf08c0-5122-4e28-07b1-08ddca376b22",
+      "billNumber": "187-2",
+      "stage": "2",
+      "committee": "Justice",
+      "lastActivity": "14 Aug 2025"
+    },
+    {
+      "title": "Veterans' Recognition Bill",
+      "url": "https://bills.parliament.nz/v/6/8125ed0a-b7f4-4372-0126-08dddac05555",
+      "billNumber": "192-1",
+      "stage": "1",
+      "committee": "",
+      "lastActivity": "14 Aug 2025"
+    },
+    {
+      "title": "Regulatory Systems (Internal Affairs) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/78d4ac6c-3126-45ce-07af-08ddca376b22",
+      "billNumber": "188-2",
+      "stage": "2",
+      "committee": "Governance and Administration",
+      "lastActivity": "12 Aug 2025"
+    },
+    {
+      "title": "Regulatory Systems (Primary Industries) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/b67a1511-3571-4ba8-96ca-08db71ef2382",
+      "billNumber": "256-2",
+      "stage": "CH",
+      "committee": "Primary Production",
+      "lastActivity": "24 Jul 2025"
+    },
+    {
+      "title": "Anti-Money Laundering and Countering Financing of Terrorism (Supervisor, Levy, and Other Matters) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/ea81ee71-f6e8-4a84-3f2a-08ddc3f5fe43",
+      "billNumber": "181-2",
+      "stage": "2",
+      "committee": "Economic Development, Science and Innovation",
+      "lastActivity": "22 Jul 2025"
+    },
+    {
+      "title": "Patents Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/2a75d2b2-33ee-494e-fede-08dd98c831fd",
+      "billNumber": "154-1",
+      "stage": "2",
+      "committee": "Economic Development, Science and Innovation",
+      "lastActivity": "17 Jul 2025"
+    },
+    {
+      "title": "Local Government (System Improvements) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/ccec6aba-9fb7-4b54-f679-08ddc285d4b5",
+      "billNumber": "180-2",
+      "stage": "2",
+      "committee": "Governance and Administration",
+      "lastActivity": "17 Jul 2025"
+    },
+    {
+      "title": "Residential Tenancies (Registration of Boarding House Landlords) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/0c007074-c2d7-4e12-65c9-08ddc4d61c13",
+      "billNumber": "183-1",
+      "stage": "1",
+      "committee": "",
+      "lastActivity": "17 Jul 2025"
+    },
+    {
+      "title": "Local Government (Port Companies Accountability) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/e8dda0c4-0b96-4604-fed7-08dd98c831fd",
+      "billNumber": "170-1",
+      "stage": "1",
+      "committee": "",
+      "lastActivity": "22 May 2025"
+    },
+    {
+      "title": "Military Decorations and Distinctive Badges (Modernisation) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/def606a1-22c2-43a3-fed5-08dd98c831fd",
+      "billNumber": "168-1",
+      "stage": "1",
+      "committee": "",
+      "lastActivity": "22 May 2025"
+    },
+    {
+      "title": "Financial Markets (International Money Transfers) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/fc1bc28a-a8f9-475d-fed6-08dd98c831fd",
+      "billNumber": "169-1",
+      "stage": "1",
+      "committee": "",
+      "lastActivity": "22 May 2025"
+    },
+    {
+      "title": "Financial Markets (Conduct of Institutions) Amendment (Duty to Provide Financial Services) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/8aad04b7-1df0-480a-531a-08dd514abaa2",
+      "billNumber": "125-1",
+      "stage": "SC",
+      "committee": "Finance and Expenditure",
+      "lastActivity": "21 May 2025"
+    },
+    {
+      "title": "Financial Service Providers (Registration and Dispute Resolution) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/a4d89cb0-ce82-4d28-0d59-08dd6ff875cc",
+      "billNumber": "136-2",
+      "stage": "2",
+      "committee": "Finance and Expenditure",
+      "lastActivity": "20 May 2025"
+    },
+    {
+      "title": "Credit Contracts and Consumer Finance Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/6193a33c-40d6-4354-0d5a-08dd6ff875cc",
+      "billNumber": "137-2",
+      "stage": "2",
+      "committee": "Finance and Expenditure",
+      "lastActivity": "20 May 2025"
+    },
+    {
+      "title": "New Zealand Infrastructure Commission/Te Waihanga Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/d246a1bc-3981-40db-023e-08dd9688d2c5",
+      "billNumber": "156-1",
+      "stage": "1",
+      "committee": "",
+      "lastActivity": "19 May 2025"
+    },
+    {
+      "title": "Valuers Bill",
+      "url": "https://bills.parliament.nz/v/6/4a681e46-1bb1-4372-68f7-08dd90f2ab46",
+      "billNumber": "148-2",
+      "stage": "2",
+      "committee": "Primary Production",
+      "lastActivity": "15 May 2025"
+    },
+    {
+      "title": "Sale and Supply of Alcohol (Restrictions on Issue of Off-Licences and Low and No Alcohol Products) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/ffde34b1-0257-466b-1881-08dd77d42c62",
+      "billNumber": "144-1",
+      "stage": "1",
+      "committee": "",
+      "lastActivity": "10 Apr 2025"
+    },
+    {
+      "title": "Employment Relations (Termination of Employment by Agreement) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/fcf6f0ea-1d44-45af-cfff-08dcfeb826c6",
+      "billNumber": "95-2",
+      "stage": "2",
+      "committee": "Education and Workforce",
+      "lastActivity": "09 Apr 2025"
+    },
+    {
+      "title": "Plain Language Act Repeal Bill",
+      "url": "https://bills.parliament.nz/v/6/056f85e8-a3b3-4124-7da9-08dd6a63478a",
+      "billNumber": "132-1",
+      "stage": "2",
+      "committee": "Governance and Administration",
+      "lastActivity": "01 Apr 2025"
+    },
+    {
+      "title": "Referendums Framework Bill",
+      "url": "https://bills.parliament.nz/v/6/02b54127-0232-4efa-c263-08dd56a9bde4",
+      "billNumber": "126-2",
+      "stage": "2",
+      "committee": "Justice",
+      "lastActivity": "06 Mar 2025"
+    },
+    {
+      "title": "Term of Parliament (Enabling 4-year Term) Legislation Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/d259d3b7-961b-4d71-c262-08dd56a9bde4",
+      "billNumber": "128-2",
+      "stage": "2",
+      "committee": "Justice",
+      "lastActivity": "05 Mar 2025"
+    },
+    {
+      "title": "Regulatory Systems (Occupational Regulation) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/4027eebe-f694-49a4-9720-08dd1edf8e71",
+      "billNumber": "116-2",
+      "stage": "2",
+      "committee": "Education and Workforce",
+      "lastActivity": "18 Feb 2025"
+    },
+    {
+      "title": "Regulatory Systems (Courts) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/23b18c7a-2a5f-4bb1-9722-08dd1edf8e71",
+      "billNumber": "117-2",
+      "stage": "2",
+      "committee": "Justice",
+      "lastActivity": "18 Feb 2025"
+    },
+    {
+      "title": "Regulatory Systems (Tribunals) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/fe6104bd-4760-40a0-9721-08dd1edf8e71",
+      "billNumber": "115-2",
+      "stage": "2",
+      "committee": "Justice",
+      "lastActivity": "18 Feb 2025"
+    },
+    {
+      "title": "Anti-Money Laundering and Countering Financing of Terrorism Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/81644768-3902-4253-9723-08dd1edf8e71",
+      "billNumber": "114-2",
+      "stage": "2",
+      "committee": "Justice",
+      "lastActivity": "13 Feb 2025"
+    },
+    {
+      "title": "Māori Purposes Bill",
+      "url": "https://bills.parliament.nz/v/6/0f55964b-2a94-408a-e6fe-08dd18052784",
+      "billNumber": "106-2",
+      "stage": "2",
+      "committee": "Māori Affairs",
+      "lastActivity": "12 Feb 2025"
+    },
+    {
+      "title": "Gene Technology Bill",
+      "url": "https://bills.parliament.nz/v/6/22059628-b0cc-4931-5e07-08dd18a12bfb",
+      "billNumber": "110-2",
+      "stage": "2",
+      "committee": "Health",
+      "lastActivity": "18 Dec 2024"
+    },
+    {
+      "title": "Pae Ora (Healthy Futures) (3 Day Postnatal Stay) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/629209dd-8e97-489d-6c05-08dc494421e8",
+      "billNumber": "37-1",
+      "stage": "2",
+      "committee": "Health",
+      "lastActivity": "18 Dec 2024"
+    },
+    {
+      "title": "Crimes (Increased Penalties for Slavery Offences) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/82e8e858-09d9-4aea-6c04-08dc494421e8",
+      "billNumber": "36-1",
+      "stage": "2",
+      "committee": "Justice",
+      "lastActivity": "18 Dec 2024"
+    },
+    {
+      "title": "Oranga Tamariki (Responding to Serious Youth Offending) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/58c619f0-9c1f-4ce0-df81-08dd076d450c",
+      "billNumber": "99-2",
+      "stage": "2",
+      "committee": "Social Services and Community",
+      "lastActivity": "21 Nov 2024"
+    },
+    {
+      "title": "Copyright (Parody and Satire) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/79c26586-3ff8-4601-d000-08dcfeb826c6",
+      "billNumber": "96-1",
+      "stage": "1",
+      "committee": "",
+      "lastActivity": "07 Nov 2024"
+    },
+    {
+      "title": "Policing (Police Vetting) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/3ea540c5-4078-4dd6-2d35-08dce8aa40a1",
+      "billNumber": "89-2",
+      "stage": "2",
+      "committee": "Justice",
+      "lastActivity": "05 Nov 2024"
+    },
+    {
+      "title": "Mental Health Bill",
+      "url": "https://bills.parliament.nz/v/6/538751b7-fea5-4dcc-cce2-08dce18e31b4",
+      "billNumber": "87-2",
+      "stage": "2",
+      "committee": "Health",
+      "lastActivity": "23 Oct 2024"
+    },
+    {
+      "title": "Ngāti Tara Tokanui Claims Settlement Bill",
+      "url": "https://bills.parliament.nz/v/6/8934d29d-0f93-48a4-a23d-87b8eb3e3778",
+      "billNumber": "177-2",
+      "stage": "CH",
+      "committee": "Māori Affairs",
+      "lastActivity": "07 May 2024"
+    },
+    {
+      "title": "Ngāti Hei Claims Settlement Bill",
+      "url": "https://bills.parliament.nz/v/6/b8878567-9145-474e-b829-04936369e692",
+      "billNumber": "218-2",
+      "stage": "CH",
+      "committee": "Māori Affairs",
+      "lastActivity": "09 Apr 2024"
+    },
+    {
+      "title": "Tauranga Moana Iwi Collective Redress Bill",
+      "url": "https://bills.parliament.nz/v/6/da99d8a8-8dc6-41c8-a2a1-08dc575c1a37",
+      "billNumber": "84-3A",
+      "stage": "2",
+      "committee": "Māori Affairs",
+      "lastActivity": "03 Apr 2024"
+    },
+    {
+      "title": "Parole (Mandatory Completion of Rehabilitative Programmes) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/c9ebaf30-0b13-4f4a-408c-08dc2dc25b35",
+      "billNumber": "15-2",
+      "stage": "2",
+      "committee": "Justice",
+      "lastActivity": "29 Feb 2024"
+    },
+    {
+      "title": "Fair Digital News Bargaining Bill",
+      "url": "https://bills.parliament.nz/v/6/fc7faac0-2ec0-4e47-7ab5-08db9ebb2302",
+      "billNumber": "278-1",
+      "stage": "2",
+      "committee": "Economic Development, Science and Innovation",
+      "lastActivity": "31 Aug 2023"
+    },
+    {
+      "title": "Human Rights (Prohibition of Discrimination on Grounds of Gender Identity or Expression, and Variations of Sex Characteristics) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/c1e2ca61-b8a2-482b-1872-08db93c62d99",
+      "billNumber": "275-1",
+      "stage": "1",
+      "committee": "",
+      "lastActivity": "03 Aug 2023"
+    },
+    {
+      "title": "New Zealand Bill of Rights (Right to Lawfully Acquired Property) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/81d51b30-fe38-4066-e6fa-08db8e47efec",
+      "billNumber": "271-1",
+      "stage": "1",
+      "committee": "",
+      "lastActivity": "27 Jul 2023"
+    },
+    {
+      "title": "Employment Relations (Restraint of Trade) Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/78a64dc5-e4cb-49a2-b464-98f09742b962",
+      "billNumber": "172-2",
+      "stage": "2",
+      "committee": "Education and Workforce",
+      "lastActivity": "26 Jul 2023"
+    },
+    {
+      "title": "Pare Hauraki Collective Redress Bill",
+      "url": "https://bills.parliament.nz/v/6/e4c26b18-0649-46bf-87b8-7f542372eace",
+      "billNumber": "220-1",
+      "stage": "1",
+      "committee": "",
+      "lastActivity": "19 Dec 2022"
+    },
+    {
+      "title": "Improving Arrangements for Surrogacy Bill",
+      "url": "https://bills.parliament.nz/v/6/9f5b2996-24dc-471d-8461-7b23cb804bee",
+      "billNumber": "72-1",
+      "stage": "SC",
+      "committee": "Health",
+      "lastActivity": "18 May 2022"
+    },
+    {
+      "title": "Girl Guides Association (New Zealand Branch) Incorporation Amendment Bill",
+      "url": "https://bills.parliament.nz/v/6/19a3d28f-3f27-4551-adbb-189a38efc9c7",
+      "billNumber": "5-1",
+      "stage": "2",
+      "committee": "Social Services and Community",
+      "lastActivity": "09 Feb 2021"
+    },
+    {
+      "title": "Ngāi Te Rangi and Ngā Pōtiki Claims Settlement Bill",
+      "url": "https://bills.parliament.nz/v/6/a554cf00-424c-49c7-943b-58d1e5aeb522",
+      "billNumber": "127-2",
+      "stage": "2",
+      "committee": "Māori Affairs",
+      "lastActivity": "25 May 2016"
+    }
+  ]
+}

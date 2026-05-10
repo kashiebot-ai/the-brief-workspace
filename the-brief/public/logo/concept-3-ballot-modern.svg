@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Variation 3: Ballot Box Modern -->
+  <defs>
+    <style>
+      .primary { fill: #2E5090; }
+      .accent { fill: #F4F6F8; }
+      @media (prefers-color-scheme: dark) {
+        .primary { fill: #5D8DD6; }
+        .accent { fill: #E8ECEF; }
+      }
+    </style>
+  </defs>
+  
+  <!-- Ballot box shape with document lines -->
+  <g class="primary">
+    <!-- Main box container -->
+    <rect x="140" y="140" width="232" height="180" rx="8"/>
+    
+    <!-- Ballot slot (top) -->
+    <rect x="200" y="130" width="112" height="20" rx="4"/>
+    
+    <!-- Document lines (negative space concept) -->
+    <g class="accent">
+      <rect x="170" y="180" width="172" height="8" rx="2"/>
+      <rect x="170" y="210" width="140" height="8" rx="2"/>
+      <rect x="170" y="240" width="160" height="8" rx="2"/>
+      <rect x="170" y="270" width="120" height="8" rx="2"/>
+    </g>
+    
+    <!-- Checkmark element -->
+    <path d="M 195 200 L 210 220 L 250 165" stroke-width="12" stroke="#4A9D5F" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+  </g>
+  
+  <!-- Typography -->
+  <text x="256" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="600" text-anchor="middle" class="primary">THE BRIEF</text>
+</svg>

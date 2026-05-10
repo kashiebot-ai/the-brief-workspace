@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <style>
+      @media (prefers-color-scheme: dark) {
+        .logo-primary { fill: #E0E0E0; stroke: #E0E0E0; }
+        .logo-accent { fill: #A0A0A0; }
+      }
+      @media (prefers-color-scheme: light) {
+        .logo-primary { fill: #2C3E50; stroke: #2C3E50; }
+        .logo-accent { fill: #7F8C8D; }
+      }
+    </style>
+  </defs>
+  
+  <!-- Checkbox/Ballot box -->
+  <rect x="60" y="60" width="80" height="80" rx="8" stroke="currentColor" stroke-width="3" fill="none" class="logo-primary"/>
+  
+  <!-- Checkmark that transforms into fern frond -->
+  <path d="M 75 100 L 90 115 L 130 70" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" class="logo-primary"/>
+  
+  <!-- Fern leaves along the checkmark -->
+  <path d="M 85 110 Q 80 108 78 110" class="logo-accent" opacity="0.7"/>
+  <path d="M 82 113 Q 77 112 76 114" class="logo-accent" opacity="0.6"/>
+  
+  <path d="M 100 100 Q 98 96 100 93" class="logo-accent" opacity="0.7"/>
+  <path d="M 105 95 Q 104 91 106 88" class="logo-accent" opacity="0.6"/>
+  
+  <path d="M 115 85 Q 114 81 116 78" class="logo-accent" opacity="0.7"/>
+  <path d="M 120 80 Q 120 76 122 73" class="logo-accent" opacity="0.6"/>
+  <path d="M 125 75 Q 126 71 128 69" class="logo-accent" opacity="0.5"/>
+</svg>

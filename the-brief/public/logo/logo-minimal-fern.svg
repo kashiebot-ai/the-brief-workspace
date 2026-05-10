@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <style>
+      .fern { fill: #2F5233; }
+      @media (prefers-color-scheme: dark) {
+        .fern { fill: #7BC67B; }
+      }
+    </style>
+  </defs>
+  
+  <!-- Simple, clean silver fern optimized for favicon -->
+  <g transform="translate(256, 256)">
+    <!-- Central stem -->
+    <path class="fern" d="M 0,-180 Q -3,0 0,180" stroke-width="12" fill="none" stroke-linecap="round"/>
+    
+    <!-- Fronds (symmetrical pairs) -->
+    <!-- Top pair -->
+    <ellipse class="fern" cx="-50" cy="-140" rx="48" ry="20" transform="rotate(-50 -50 -140)"/>
+    <ellipse class="fern" cx="50" cy="-140" rx="48" ry="20" transform="rotate(50 50 -140)"/>
+    
+    <!-- Upper-mid pair -->
+    <ellipse class="fern" cx="-60" cy="-70" rx="55" ry="24" transform="rotate(-45 -60 -70)"/>
+    <ellipse class="fern" cx="60" cy="-70" rx="55" ry="24" transform="rotate(45 60 -70)"/>
+    
+    <!-- Mid pair -->
+    <ellipse class="fern" cx="-65" cy="0" rx="60" ry="26" transform="rotate(-40 -65 0)"/>
+    <ellipse class="fern" cx="65" cy="0" rx="60" ry="26" transform="rotate(40 65 0)"/>
+    
+    <!-- Lower-mid pair -->
+    <ellipse class="fern" cx="-68" cy="70" rx="62" ry="28" transform="rotate(-38 -68 70)"/>
+    <ellipse class="fern" cx="68" cy="70" rx="62" ry="28" transform="rotate(38 68 70)"/>
+    
+    <!-- Bottom pair -->
+    <ellipse class="fern" cx="-65" cy="140" rx="55" ry="26" transform="rotate(-35 -65 140)"/>
+    <ellipse class="fern" cx="65" cy="140" rx="55" ry="26" transform="rotate(35 65 140)"/>
+  </g>
+</svg>

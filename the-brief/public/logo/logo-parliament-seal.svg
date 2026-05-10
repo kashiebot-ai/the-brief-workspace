@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <style>
+      .seal { fill: none; stroke: #001F3F; stroke-width: 8; }
+      .building { fill: #003D5C; }
+      .accent { fill: #B8860B; }
+      .text { fill: #001F3F; font-family: 'Arial', sans-serif; font-weight: 700; font-size: 42px; letter-spacing: 4px; }
+      @media (prefers-color-scheme: dark) {
+        .seal { stroke: #FFFFFF; }
+        .building { fill: #4A9ECC; }
+        .accent { fill: #FFD700; }
+        .text { fill: #FFFFFF; }
+      }
+    </style>
+  </defs>
+  
+  <!-- Outer seal circle -->
+  <circle class="seal" cx="256" cy="256" r="220"/>
+  <circle class="seal" cx="256" cy="256" r="200"/>
+  
+  <!-- Parliament building silhouette (simplified NZ Parliament) -->
+  <g transform="translate(256, 280)">
+    <!-- Central dome (Beehive inspired) -->
+    <ellipse class="building" cx="0" cy="-40" rx="50" ry="60"/>
+    <rect class="building" x="-50" y="-10" width="100" height="80"/>
+    
+    <!-- Side wings -->
+    <rect class="building" x="-120" y="10" width="60" height="60"/>
+    <polygon class="building" points="-120,10 -90,0 -60,10"/>
+    
+    <rect class="building" x="60" y="10" width="60" height="60"/>
+    <polygon class="building" points="60,10 90,0 120,10"/>
+    
+    <!-- Columns (detail) -->
+    <rect class="building" x="-40" y="20" width="8" height="50"/>
+    <rect class="building" x="-20" y="20" width="8" height="50"/>
+    <rect class="building" x="0" y="20" width="8" height="50"/>
+    <rect class="building" x="20" y="20" width="8" height="50"/>
+    <rect class="building" x="32" y="20" width="8" height="50"/>
+  </g>
+  
+  <!-- Text: THE BRIEF -->
+  <path class="text" d="M 150,110 A 140 140 0 0 1 362,110" id="topCurve" fill="none"/>
+  <text class="text" text-anchor="middle">
+    <textPath href="#topCurve" startOffset="50%">THE BRIEF</textPath>
+  </text>
+  
+  <!-- Small fern accent at bottom -->
+  <g transform="translate(256, 410)">
+    <ellipse class="accent" cx="-15" cy="-5" rx="18" ry="8" transform="rotate(-40 -15 -5)"/>
+    <ellipse class="accent" cx="15" cy="-5" rx="18" ry="8" transform="rotate(40 15 -5)"/>
+    <ellipse class="accent" cx="-18" cy="8" rx="20" ry="9" transform="rotate(-35 -18 8)"/>
+    <ellipse class="accent" cx="18" cy="8" rx="20" ry="9" transform="rotate(35 18 8)"/>
+    <path class="accent" d="M 0,-15 Q 0,0 0,15" stroke-width="4" fill="none"/>
+  </g>
+</svg>

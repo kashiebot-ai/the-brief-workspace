@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Brief - Logo Concepts Gallery</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #f5f5f5;
+      color: #1a1a1a;
+      padding: 2rem;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    body.dark-mode {
+      background: #1a1a1a;
+      color: #f5f5f5;
+    }
+
+    header {
+      max-width: 1400px;
+      margin: 0 auto 3rem;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      color: #666;
+      font-size: 1.1rem;
+    }
+
+    body.dark-mode .subtitle {
+      color: #999;
+    }
+
+    .controls {
+      margin: 2rem 0;
+      text-align: center;
+    }
+
+    button {
+      background: #2E5090;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    button:hover {
+      background: #1E3A5F;
+    }
+
+    body.dark-mode button {
+      background: #5D8DD6;
+    }
+
+    body.dark-mode button:hover {
+      background: #7DA9E6;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .concept {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    body.dark-mode .concept {
+      background: #2d2d2d;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    .concept:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    }
+
+    .preview {
+      background: repeating-conic-gradient(#ddd 0% 25%, transparent 0% 50%) 50% / 20px 20px;
+      border-radius: 8px;
+      padding: 2rem;
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    body.dark-mode .preview {
+      background: repeating-conic-gradient(#333 0% 25%, transparent 0% 50%) 50% / 20px 20px;
+    }
+
+    .preview img {
+      width: 100%;
+      max-width: 256px;
+      height: auto;
+    }
+
+    .concept h3 {
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+      color: #1E3A5F;
+    }
+
+    body.dark-mode .concept h3 {
+      color: #5D8DD6;
+    }
+
+    .concept p {
+      color: #666;
+      line-height: 1.6;
+      font-size: 0.95rem;
+    }
+
+    body.dark-mode .concept p {
+      color: #aaa;
+    }
+
+    .note {
+      max-width: 1400px;
+      margin: 3rem auto 0;
+      padding: 1.5rem;
+      background: #fff3cd;
+      border-left: 4px solid #ffc107;
+      border-radius: 4px;
+    }
+
+    body.dark-mode .note {
+      background: #4a3f1f;
+      border-color: #d39e00;
+    }
+
+    .note strong {
+      color: #856404;
+    }
+
+    body.dark-mode .note strong {
+      color: #ffc107;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The Brief - Logo Concepts</h1>
+    <p class="subtitle">5 design variations exploring NZ political identity</p>
+    <div class="controls">
+      <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    </div>
+  </header>
+
+  <div class="gallery">
+    <div class="concept">
+      <div class="preview">
+        <img src="concept-1-fern-brief.svg" alt="Concept 1: The Fern Brief">
+      </div>
+      <h3>1. The Fern Brief</h3>
+      <p>Stylized silver fern forming a document shape. Clean geometric interpretation with the fern suggesting pages/documents. Navy blue and silver color palette.</p>
+    </div>
+
+    <div class="concept">
+      <div class="preview">
+        <img src="concept-2-parliament-circle.svg" alt="Concept 2: Parliament Circle">
+      </div>
+      <h3>2. Parliament Circle</h3>
+      <p>Circular badge featuring a simplified parliament/beehive silhouette. Suggests authority and completeness. Charcoal and light blue color scheme.</p>
+    </div>
+
+    <div class="concept">
+      <div class="preview">
+        <img src="concept-3-ballot-modern.svg" alt="Concept 3: Ballot Box Modern">
+      </div>
+      <h3>3. Ballot Box Modern</h3>
+      <p>Abstract ballot box with document lines and checkmark element. Royal blue and white/grey palette. Strong geometric composition.</p>
+    </div>
+
+    <div class="concept">
+      <div class="preview">
+        <img src="concept-4-minimalist-fern.svg" alt="Concept 4: Minimalist Fern">
+      </div>
+      <h3>4. Minimalist Fern Mark</h3>
+      <p>Ultra-simple geometric fern with 5 leaf shapes. Optimized for small sizes (favicon-ready). Deep teal and silver. Icon-first design.</p>
+    </div>
+
+    <div class="concept">
+      <div class="preview">
+        <img src="concept-5-document-fern.svg" alt="Concept 5: Document + Fern">
+      </div>
+      <h3>5. Document + Fern Hybrid</h3>
+      <p>Folded document with subtle fern watermark. Professional business aesthetic. Navy, light blue-grey, with green accent for fern detail.</p>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Note:</strong> These are SVG placeholder concepts. The OpenAI image generation API was unavailable (401 error). 
+    These designs demonstrate the creative direction and can be refined using design tools or by updating the API key for AI-generated variations.
+  </div>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+      localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
+    }
+
+    // Restore dark mode preference
+    if (localStorage.getItem('darkMode') === 'true') {
+      document.body.classList.add('dark-mode');
+    }
+
+    // Auto-detect system preference
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.body.classList.add('dark-mode');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Brief - Logo Preview</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      padding: 40px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+    }
+    h1 {
+      color: white;
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 2.5em;
+    }
+    .subtitle {
+      color: rgba(255,255,255,0.8);
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 1.1em;
+    }
+    .toggle {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .toggle button {
+      background: white;
+      border: none;
+      padding: 12px 30px;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: all 0.3s;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+    .toggle button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    .logo-card {
+      background: white;
+      border-radius: 16px;
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+    .logo-card:hover {
+      transform: translateY(-5px);
+    }
+    body.dark-mode .logo-card {
+      background: #1a1a1a;
+      color: white;
+    }
+    .logo-preview {
+      width: 100%;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f5f5f5;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      transition: background 0.3s;
+    }
+    body.dark-mode .logo-preview {
+      background: #2a2a2a;
+    }
+    .logo-preview img {
+      max-width: 150px;
+      max-height: 150px;
+    }
+    .logo-title {
+      font-size: 1.3em;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: #003D5C;
+    }
+    body.dark-mode .logo-title {
+      color: #4A9ECC;
+    }
+    .logo-desc {
+      color: #666;
+      font-size: 0.95em;
+      line-height: 1.5;
+    }
+    body.dark-mode .logo-desc {
+      color: #aaa;
+    }
+    .sizes {
+      display: flex;
+      gap: 10px;
+      margin-top: 15px;
+      justify-content: center;
+    }
+    .size-demo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      background: white;
+    }
+    body.dark-mode .size-demo {
+      background: #0a0a0a;
+      border-color: #333;
+    }
+    .size-16 { width: 32px; height: 32px; }
+    .size-32 { width: 48px; height: 48px; }
+    .size-64 { width: 80px; height: 80px; }
+  </style>
+</head>
+<body>
+  <h1>🗳️ The Brief</h1>
+  <p class="subtitle">Logo Design Options</p>
+  
+  <div class="toggle">
+    <button onclick="toggleDarkMode()">Toggle Dark/Light Mode</button>
+  </div>
+
+  <div class="grid">
+    <div class="logo-card">
+      <div class="logo-preview">
+        <img src="logo-fern-document.svg" alt="Fern Document Logo">
+      </div>
+      <h3 class="logo-title">1. Fern + Document</h3>
+      <p class="logo-desc">Silver fern integrated with document. Perfect for main branding and website headers. Combines NZ identity with political journalism theme.</p>
+      <div class="sizes">
+        <div class="size-demo size-16"><img src="logo-fern-document.svg" style="width:16px;height:16px;"></div>
+        <div class="size-demo size-32"><img src="logo-fern-document.svg" style="width:32px;height:32px;"></div>
+        <div class="size-demo size-64"><img src="logo-fern-document.svg" style="width:64px;height:64px;"></div>
+      </div>
+    </div>
+
+    <div class="logo-card">
+      <div class="logo-preview">
+        <img src="logo-monogram.svg" alt="TB Monogram Logo">
+      </div>
+      <h3 class="logo-title">2. TB Monogram</h3>
+      <p class="logo-desc">Bold typography-focused design with fern accent. Ideal for compact spaces, social media avatars, and app icons.</p>
+      <div class="sizes">
+        <div class="size-demo size-16"><img src="logo-monogram.svg" style="width:16px;height:16px;"></div>
+        <div class="size-demo size-32"><img src="logo-monogram.svg" style="width:32px;height:32px;"></div>
+        <div class="size-demo size-64"><img src="logo-monogram.svg" style="width:64px;height:64px;"></div>
+      </div>
+    </div>
+
+    <div class="logo-card">
+      <div class="logo-preview">
+        <img src="logo-minimal-fern.svg" alt="Minimal Fern Logo">
+      </div>
+      <h3 class="logo-title">3. Minimal Fern</h3>
+      <p class="logo-desc">Pure, simplified silver fern. Instantly recognizable. Perfect for favicons, watermarks, and minimal branding contexts.</p>
+      <div class="sizes">
+        <div class="size-demo size-16"><img src="logo-minimal-fern.svg" style="width:16px;height:16px;"></div>
+        <div class="size-demo size-32"><img src="logo-minimal-fern.svg" style="width:32px;height:32px;"></div>
+        <div class="size-demo size-64"><img src="logo-minimal-fern.svg" style="width:64px;height:64px;"></div>
+      </div>
+    </div>
+
+    <div class="logo-card">
+      <div class="logo-preview">
+        <img src="logo-ballot-box.svg" alt="Ballot Box Logo">
+      </div>
+      <h3 class="logo-title">4. Ballot Box</h3>
+      <p class="logo-desc">Fern emerging from ballot box symbolizing democratic growth. Great for election content and voting guides.</p>
+      <div class="sizes">
+        <div class="size-demo size-16"><img src="logo-ballot-box.svg" style="width:16px;height:16px;"></div>
+        <div class="size-demo size-32"><img src="logo-ballot-box.svg" style="width:32px;height:32px;"></div>
+        <div class="size-demo size-64"><img src="logo-ballot-box.svg" style="width:64px;height:64px;"></div>
+      </div>
+    </div>
+
+    <div class="logo-card">
+      <div class="logo-preview">
+        <img src="logo-parliament-seal.svg" alt="Parliament Seal Logo">
+      </div>
+      <h3 class="logo-title">5. Parliament Seal</h3>
+      <p class="logo-desc">Circular seal with parliament building silhouette. Official and authoritative feel. Best for formal documents and print materials.</p>
+      <div class="sizes">
+        <div class="size-demo size-16"><img src="logo-parliament-seal.svg" style="width:16px;height:16px;"></div>
+        <div class="size-demo size-32"><img src="logo-parliament-seal.svg" style="width:32px;height:32px;"></div>
+        <div class="size-demo size-64"><img src="logo-parliament-seal.svg" style="width:64px;height:64px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+</body>
+</html>

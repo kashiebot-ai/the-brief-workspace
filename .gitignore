@@ -1,0 +1,8 @@
+
+# Local nested project repos and generated backups
+green-planet-website/
+projects/the-briefing/backups/
+the-brief/github-secrets.png
+# Local secret/config migration artifacts - never commit
+auth-profiles-secrets-migration.json
+openclaw-secrets-migration.json

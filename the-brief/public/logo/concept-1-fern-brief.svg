@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Variation 1: The Fern Brief -->
+  <defs>
+    <style>
+      .light-mode { fill: #1B3A5F; }
+      .accent { fill: #B8C5D6; }
+      @media (prefers-color-scheme: dark) {
+        .light-mode { fill: #B8C5D6; }
+        .accent { fill: #5D7A99; }
+      }
+    </style>
+  </defs>
+  
+  <!-- Stylized fern forming document shape -->
+  <g class="light-mode">
+    <!-- Main stem -->
+    <path d="M 180 120 Q 185 220 190 320 Q 192 380 195 440" stroke-width="8" stroke="currentColor" fill="none"/>
+    
+    <!-- Fern fronds (left side) -->
+    <path d="M 180 160 Q 140 165 120 150"/>
+    <path d="M 182 200 Q 135 210 110 195"/>
+    <path d="M 184 240 Q 130 255 105 235"/>
+    <path d="M 186 280 Q 135 300 115 280"/>
+    <path d="M 188 320 Q 140 345 125 325"/>
+    
+    <!-- Fern fronds (right side) -->
+    <path d="M 185 160 Q 225 165 245 150"/>
+    <path d="M 187 200 Q 230 210 255 195"/>
+    <path d="M 189 240 Q 235 255 260 235"/>
+    <path d="M 191 280 Q 230 300 250 280"/>
+    <path d="M 193 320 Q 225 345 240 325"/>
+  </g>
+  
+  <!-- Typography -->
+  <text x="256" y="480" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="600" text-anchor="middle" class="light-mode">THE BRIEF</text>
+</svg>

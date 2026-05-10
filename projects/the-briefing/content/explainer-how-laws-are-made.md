@@ -1,183 +1,214 @@
-# How Laws Are Made: From Idea to Act in 8 Steps
+# How Laws Are Made: From Some MP's Bright Idea to the Rule You Follow
 
 > **The Brief** — Explainer Series  
-> **Reading time:** 8 minutes  
-> **What you'll learn:** Exactly how a thought becomes a law that affects your life
+> **Reading time:** 7 minutes  
+> **The short version:** Every law started as someone's idea. Most die. The ones that survive go through eight specific steps. Here's exactly how it works — and where you can mess with the process.
 
 ---
 
-## Why You Should Care
+## Why This Matters (No, Really)
 
-That text you sent while driving? Illegal — because Parliament made it so.  
-The minimum wage your boss pays you? Set by Parliament.  
-The fact you can marry who you love? Parliament changed that law in 2013.
+In 2013, Parliament passed a law that let people marry regardless of gender. In 2020, they made abortion a health issue instead of a crime. In 2023, they banned single-use plastic bags.
 
-Every rule that governs your daily life started as someone's idea and went through a specific process. Understanding this process is your superpower. It shows you *exactly* where you can have a say.
+None of this happened by accident. Each started as a Bill — a piece of paper with an idea on it — that went through the same eight-step process. Most Bills fail. The ones that don't change how you live, work, and love.
+
+Understanding this process tells you exactly when and how to make noise. It's not democracy theater. Select Committees actually read submissions. MPs actually change their minds. Sometimes.
 
 ---
 
-## The Big Picture (8 Steps)
+## The Journey: 8 Steps From Idea to Law
 
 ```
-💡 IDEA → 📝 BILL → 📖 1st Reading → 👥 Select Committee 
-→ 📖 2nd Reading → 🔍 Committee of Whole House 
-→ 📖 3rd Reading → ✍️ Royal Assent → ⚖️ ACT
+💡 IDEA 
+   ↓ Someone proposes it
+📝 BILL 
+   ↓ Lawyers write the actual rules
+📖 First Reading 
+   ↓ MPs debate: "Do we want this at all?"
+👥 Select Committee 
+   ↓ The real work happens here (your chance)
+📖 Second Reading 
+   ↓ MPs debate the details
+🔍 Committee of the Whole House 
+   ↓ Line-by-line changes
+📖 Third Reading 
+   ↓ Final vote
+✍️ Royal Assent 
+   ↓ Governor-General signs it
+⚖️ ACT 
+   ↓ It's law (usually not immediately)
 ```
-
-Let's break each step down in plain English.
 
 ---
 
 ## Step 1: Someone Has an Idea
 
-Laws start with problems. Maybe house prices are out of control. Maybe a new technology needs regulating. Maybe a gap in the system let someone get hurt.
+Laws start with problems. The 2019 Christchurch mosque shootings led to gun law changes within weeks. The housing crisis has produced three different Bills in five years. A court case goes wrong, a new technology appears, someone gets hurt — Parliament responds.
 
 **Who can propose a law?**
-- **Government ministers** — most laws come from here (the Government's agenda)
-- **Ordinary MPs** — called "Member's Bills," these often tackle issues the Government ignores
-- **Rarely:** Citizens can force a vote through petition (but this almost never happens)
+- **Government ministers** — About 80% of Bills. This is the Government's agenda.
+- **Ordinary MPs** — Called "Member's Bills." Louisa Wall's 2012 Member's Bill legalised same-sex marriage despite the Government not planning to touch it.
+- **You** — Technically, through petition. Realistically, good luck with that.
 
-**Real example:** The law allowing same-sex marriage started as a Member's Bill from Labour MP Louisa Wall — not from the Government.
+Most Member's Bills fail. The ones that don't often become the laws people remember.
 
 ---
 
 ## Step 2: It Becomes a Bill
 
-"Bill" is just the name for a proposed law. Once the idea is approved, lawyers get to work. They write the actual legal text — every clause, every definition, every punishment.
+Lawyers turn the idea into actual legal text. Every clause. Every definition. Every punishment. The Bill gets published on [legislation.govt.nz](https://www.legislation.govt.nz) and the Parliament website.
 
-This draft gets published on the Parliament website. Anyone can read it. Most people don't. But lobby groups, lawyers, and journalists comb through it.
+**Key point:** A Bill is NOT law. It's a proposal. Think of it as an email draft — it can be edited, forwarded, or deleted.
 
-**Key point:** A Bill is NOT a law yet. It's a proposal. Think of it like a draft email — it can still be changed or deleted.
+Lobby groups, industry bodies, and lawyers descend on it immediately. Most New Zealanders ignore it until it's too late.
 
 ---
 
 ## Step 3: First Reading
 
-The Bill is introduced to Parliament. MPs debate the *principle* only — do we want this at all?
+The Bill is introduced to Parliament. MPs debate the *principle* only: Do we want this at all?
 
-- The sponsoring MP explains why it's needed
-- Opposition MPs say why it's good/bad/terrible
-- No amendments (changes) allowed at this stage
+- The sponsoring MP makes their case
+- Opposition parties respond
+- No amendments allowed
 
-**The vote:** Simple majority (50% + 1) decides if it continues. Most Bills pass this stage because the Government usually controls the numbers.
+**The vote:** Simple majority (50% + 1). Most Bills pass because the Government usually has the numbers. But First Reading debates signal how contentious a Bill will be. If the opposition unloads both barrels here, it's going to be a fight.
 
 ---
 
-## Step 4: Select Committee — This Is Your Moment ⭐
+## Step 4: Select Committee — Your One Real Chance ⭐
 
-This is where the real work happens. The Bill goes to a small group of MPs (usually 6-11 from different parties) who dig into the details.
+This is where laws get made. The Bill goes to a small group of MPs (usually 6-11 from across parties) who actually read the thing.
 
-**Why this matters for you:**
-- Select Committees *must* consider public submissions
-- You can write in support or opposition
-- You can request to speak to the committee in person
-- They can recommend changes based on what you say
+**Select Committees MUST consider public submissions.** This is not optional. They have to:
+- Read what you write
+- Consider requesting to hear from you in person
+- Report back on what submitters said
 
-**Timeline:** Usually 3-6 months, but can be longer for complex Bills
+**Timeline:** Usually 3-6 months. Complex Bills can take a year.
 
-**Real talk:** This is where most changes happen. If you want to influence a law, submit here. Your MP's office can help you write a submission.
+**Real example:** The 2023 Fair Pay Agreements Bill received over 300 submissions. Business groups hated it. Unions loved it. The committee recommended changes that satisfied nobody completely — which is often the point.
+
+**How to submit:**
+1. Go to [parliament.nz](https://www.parliament.nz)
+2. Find the Bill (under "Bills and Laws")
+3. Check if it's at Select Committee stage
+4. Click "Make a submission"
+5. Write 1-2 pages about how it affects you specifically
+
+Your MP's office can help. Parliamentary staff can help. You don't need to be a lawyer — being affected is enough.
 
 ---
 
 ## Step 5: Second Reading
 
-The Bill comes back to the full Parliament with the Select Committee's recommendations. MPs debate the details and whether the changes are adequate.
+The Bill comes back to Parliament with the Select Committee's recommendations. MPs debate whether those changes are adequate.
 
-- More substance than First Reading
-- Still no line-by-line changes yet
-- Vote again — still just needs 50%
+More substance than First Reading. Still no line-by-line changes yet. Still just needs 50%.
+
+**Reality check:** By this point, the Government usually knows if they have the numbers. If they've lost support from coalition partners, a Bill can die here. It rarely happens, but it happened to the 2024 Treaty Principles Bill — coalition politics killed it before Third Reading.
 
 ---
 
 ## Step 6: Committee of the Whole House
 
-Parliament turns itself into one big committee. Every MP can propose amendments — tweaks to specific words, clauses, or sections.
+Parliament becomes one big committee. Every MP can propose amendments — changing words, adding clauses, removing sections.
 
-- Line-by-line examination
-- Amendments voted on individually
-- Can dramatically change the Bill's effect
+- Hours of detailed debate
+- Amendments voted on one by one
+- Can fundamentally change the Bill's effect
 
-**Real example:** The Zero Carbon Bill had over 100 amendments proposed at this stage. Some passed, most failed.
+**Real example:** The 2019 Zero Carbon Bill had 107 amendments proposed. About a dozen passed. One change, suggested by a submitter, altered how agricultural emissions were calculated. Select Committees don't have a monopoly on influence.
 
 ---
 
 ## Step 7: Third Reading
 
-Final debate. Final vote. MPs decide whether to pass the Bill as it now stands.
+Final debate. Final vote. No more amendments.
 
-- No more amendments allowed
-- Last chance for passionate speeches
-- If it passes, it goes to the Governor-General
+This is where MPs give their considered opinions. The speeches go on Hansard forever. Sometimes they're actually worth reading.
+
+If it passes, the Bill goes to the Governor-General.
 
 ---
 
 ## Step 8: Royal Assent
 
-The Governor-General (the King's representative in NZ) signs the Bill. This is a formality — they haven't refused a Bill since the 1800s.
+The Governor-General signs it. This is a formality — the last time a Bill was refused was in 1875.
 
-Once signed, it becomes an **Act of Parliament**. It's now law.
+Once signed, it's an **Act of Parliament**. It's law.
 
-**But wait:** Most Acts don't take effect immediately. They specify a start date, or need regulations written first. Some laws pass but never come into force (rare, but it happens).
-
----
-
-## How Long Does This Take?
-
-| Type | Timeline | Example |
-|------|----------|---------|
-| **Urgent** | Weeks | COVID-19 legislation |
-| **Normal** | 6-18 months | Most Bills |
-| **Complex** | 2-5 years | Major reforms |
-| **Most Bills** | Never | ~70% fail or stall |
-
-**Why so many fail:**
-- Government changes (new priorities)
-- Runs out of parliamentary time
-- Too controversial
-- Election interrupts progress
+**But:** Most Acts don't start immediately. They specify a commencement date ("comes into force on 1 January 2025") or need regulations written first. Some pass but never come into force (rare, but the 2010 Hobbit Act's employment law changes never activated their most controversial provisions).
 
 ---
 
-## Where You Have Power
+## The Brutal Reality: Most Bills Die
+
+| Outcome | Percentage | Why |
+|---------|-----------|-----|
+| **Pass into law** | ~30% | Government priority, simple majority |
+| **Stall in committee** | ~40% | Run out of time, too complex |
+| **Voted down** | ~15% | Lose Government support, coalition split |
+| **Election kills it** | ~15% | Parliament dissolves, all Bills die |
+
+**Timeline:**
+- **Urgent:** Weeks (COVID laws passed in days)
+- **Normal:** 6-18 months
+- **Complex:** 2-5 years (Three Waters took four years and still isn't fully in force)
+- **Never:** Most Bills
+
+---
+
+## Where You Actually Have Power
 
 ```
-┌────────────────────────────────────────────────────┐
-│              🎯 YOUR POINTS OF INFLUENCE            │
-├────────────────────────────────────────────────────┤
-│  🗳️  Vote (every 3 years) — Choose who proposes    │
-│  📝  Submit to Select Committees — Be heard         │
-│  📧  Contact your MP — They represent YOU           │
-│  📰  Follow the news — Know what's being debated    │
-│  📢  Organise others — Collective voice matters     │
-└────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────┐
+│                    YOUR POINTS OF INFLUENCE                  │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  🗳️  VOTE (every 3 years)                                   │
+│     Choose who proposes laws. This is the big one.          │
+│                                                             │
+│  📝  SUBMIT TO SELECT COMMITTEE                             │
+│     1-2 pages. Personal story beats legal argument.         │
+│     Most effective way to change specific clauses.          │
+│                                                             │
+│  📧  CONTACT YOUR MP                                        │
+│     They're your representative. Use them.                  │
+│                                                             │
+│  📢  ORGANISE                                               │
+│     500 identical submissions > 1 brilliant one.            │
+│     Numbers get attention.                                  │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
 ```
 
-**The reality:** Most New Zealanders never engage with this process. The few who do have outsized influence. A well-written submission to a Select Committee can actually change a law.
+**The uncomfortable truth:** Most New Zealanders never engage past voting. The ones who do — writing submissions, showing up, making noise — have outsized influence. Parliament is more accessible than people think. The process only looks impenetrable.
 
 ---
 
 ## Quick Glossary
 
-| Term | Plain English |
-|------|---------------|
-| **Bill** | A proposed law (not yet law) |
-| **Act** | A law that's passed and in force |
-| **Select Committee** | Small group of MPs who review Bills in detail |
-| **Reading** | A stage of debate in Parliament (three total) |
-| **Member's Bill** | A law proposed by an ordinary MP, not a minister |
-| **Royal Assent** | The final signature that makes a Bill into law |
+| Term | What It Actually Means |
+|------|----------------------|
+| **Bill** | A proposal, not yet law |
+| **Act** | Law that's passed and (usually) in force |
+| **Select Committee** | Where MPs actually read the thing and listen to you |
+| **Reading** | One of three debate stages |
+| **Member's Bill** | From ordinary MPs, not ministers. Higher failure rate, higher impact when they win |
+| **Royal Assent** | Final signature. Hasn't been refused since 1875 |
 
 ---
 
-## Want to See This in Action?
+## What to Do Right Now
 
-Visit [parliament.nz](https://www.parliament.nz) and:
-1. Check what Bills are currently at Select Committee stage
-2. See if any affect you or your work
-3. Submit your view (you have about 3 months usually)
+1. Go to [parliament.nz/bills](https://www.parliament.nz/en/pb/bills-and-laws/bills-proposed-laws/)
+2. Filter by "Select Committee open for submissions"
+3. Find one that affects your life
+4. Submit something — even one paragraph about your experience
 
-The process only works if citizens participate. Now you know how.
+You have about three months usually. Use them.
 
 ---
 
-*Published by The Brief — Making NZ politics understandable.*
+*The Brief — Making NZ politics something you can actually use.*

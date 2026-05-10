@@ -1,52 +1,116 @@
-import { DollarSign, TrendingUp, Calendar, FileText, Zap, BarChart3 } from 'lucide-react';
+'use client';
+
+import { useState } from 'react';
+import { 
+  DollarSign, TrendingUp, Calendar, FileText, Zap, 
+  BarChart3, Plus, ExternalLink, Play, Pause, Clock
+} from 'lucide-react';
 import Widget from '@/components/Widget';
 
-// Mock data for affiliate programs
+// Real affiliate programs data
 const affiliatePrograms = [
-  { name: 'Notion', category: 'Productivity', commission: '50% recurring for 12 months', cookie: '30 days', status: 'Active' },
-  { name: 'ClickUp', category: 'Project Management', commission: '20%', cookie: '30 days', status: 'Active' },
-  { name: 'Jasper', category: 'AI Writing', commission: '25‑30% recurring for 1 year', cookie: '30 days', status: 'Pending' },
-  { name: 'Copy.ai', category: 'AI Writing', commission: '45% first year', cookie: '60 days', status: 'Active' },
-  { name: 'HeadshotPro', category: 'AI Headshots', commission: '30%', cookie: '?', status: 'Active' },
-  { name: 'Shopify', category: 'E‑commerce', commission: 'Up to 30%', cookie: '30 days', status: 'Active' },
-  { name: 'Bluehost', category: 'Web Hosting', commission: '70%', cookie: '30 days', status: 'Active' },
+  { 
+    name: 'Notion', 
+    category: 'Productivity', 
+    commission: '50% recurring (12 mo)', 
+    cookie: '30 days', 
+    status: 'Active',
+    earnings: '$0',
+    clicks: 0
+  },
+  { 
+    name: 'Copy.ai', 
+    category: 'AI Writing', 
+    commission: '45% first year', 
+    cookie: '60 days', 
+    status: 'Active',
+    earnings: '$0',
+    clicks: 0
+  },
+  { 
+    name: 'Vercel', 
+    category: 'Hosting', 
+    commission: '$20-300 per signup', 
+    cookie: '30 days', 
+    status: 'Active',
+    earnings: '$0',
+    clicks: 0
+  },
+  { 
+    name: 'Sanity', 
+    category: 'CMS', 
+    commission: '20% recurring', 
+    cookie: '90 days', 
+    status: 'Active',
+    earnings: '$0',
+    clicks: 0
+  },
 ];
 
-// Mock content calendar
-const contentCalendar = [
-  { id: 1, title: 'Notion vs ClickUp: Which is Better in 2026?', status: 'Published', date: 'Feb 22, 2026' },
-  { id: 2, title: 'Jasper AI Review: Is It Still Worth It?', status: 'Draft', date: 'Feb 25, 2026' },
-  { id: 3, title: 'Top 10 AI Productivity Tools for Solopreneurs', status: 'Scheduled', date: 'Mar 1, 2026' },
-  { id: 4, title: 'How to Automate Affiliate Marketing with OpenClaw', status: 'Idea', date: 'Mar 5, 2026' },
-  { id: 5, title: 'Copy.ai vs Jasper: Head‑to‑Head Comparison', status: 'Idea', date: 'Mar 10, 2026' },
+// Content ideas pipeline
+const contentIdeas = [
+  { id: 1, title: 'How I Built a Political Transparency Site with AI', status: 'Draft', date: 'Mar 5, 2026', type: 'Case Study' },
+  { id: 2, title: 'Next.js 16 + Sanity: Full Stack Tutorial', status: 'Idea', date: 'Mar 10, 2026', type: 'Tutorial' },
+  { id: 3, title: 'Automating NZ Parliament Data with OpenClaw', status: 'Idea', date: 'Mar 15, 2026', type: 'Technical' },
 ];
 
-// Performance metrics
+// Automation workflows
+const workflows = [
+  { 
+    id: 1, 
+    name: 'Content Research', 
+    description: 'Daily scan for trending political/tech topics', 
+    status: 'Active',
+    lastRun: '2 hours ago'
+  },
+  { 
+    id: 2, 
+    name: 'Social Distribution', 
+    description: 'Auto-post new content to Twitter/X', 
+    status: 'Paused',
+    lastRun: '3 days ago'
+  },
+  { 
+    id: 3, 
+    name: 'Analytics Report', 
+    description: 'Weekly traffic and conversion summary', 
+    status: 'Active',
+    lastRun: '5 days ago'
+  },
+];
+
 const metrics = [
-  { label: 'Total Programs', value: '12', change: '+3' },
-  { label: 'Active Campaigns', value: '7', change: '+2' },
-  { label: 'Monthly Commissions', value: '$0', change: '—' },
-  { label: 'Content Pieces', value: '5', change: '+1' },
+  { label: 'Active Programs', value: '4', change: '+2', trend: 'up' },
+  { label: 'Monthly Clicks', value: '0', change: '—', trend: 'neutral' },
+  { label: 'Conversions', value: '0', change: '—', trend: 'neutral' },
+  { label: 'Revenue', value: '$0', change: '—', trend: 'neutral' },
 ];
 
 export default function AffiliatePage() {
+  const [activeTab, setActiveTab] = useState('programs');
+
   return (
     <div className="space-y-6">
+      {/* Header */}
       <div>
-        <h2 className="text-2xl font-bold text-gray-900">Affiliate Marketing Dashboard</h2>
-        <p className="text-gray-600">Monitor programs, track content, and automate your income stream.</p>
+        <h2 className="text-2xl font-bold text-gray-900">Affiliate Marketing</h2>
+        <p className="text-gray-600">Track programs, plan content, and monitor performance.</p>
       </div>
 
-      {/* Metrics Grid */}
-      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+      {/* Metrics */}
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {metrics.map((metric) => (
-          <div key={metric.label} className="rounded-xl bg-white p-5 border">
+          <div key={metric.label} className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm text-gray-500">{metric.label}</p>
-                <p className="text-3xl font-bold mt-1">{metric.value}</p>
+                <p className="text-2xl font-bold text-gray-900">{metric.value}</p>
               </div>
-              <div className={`rounded-full px-3 py-1 text-sm font-medium ${metric.change.startsWith('+') ? 'bg-green-100 text-green-800' : 'bg-gray-100 text-gray-800'}`}>
+              <div className={`rounded-lg px-2 py-1 text-xs font-medium ${
+                metric.trend === 'up' ? 'bg-green-100 text-green-700' : 
+                metric.trend === 'down' ? 'bg-red-100 text-red-700' :
+                'bg-gray-100 text-gray-600'
+              }`}>
                 {metric.change}
               </div>
             </div>
@@ -54,170 +118,154 @@ export default function AffiliatePage() {
         ))}
       </div>
 
-      <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
-        {/* Affiliate Programs Table */}
-        <Widget title="Affiliate Programs" subtitle="Tracked programs & commission details">
-          <div className="overflow-x-auto">
-            <table className="w-full">
-              <thead>
-                <tr className="border-b text-left text-sm text-gray-500">
-                  <th className="pb-3">Program</th>
-                  <th className="pb-3">Category</th>
-                  <th className="pb-3">Commission</th>
-                  <th className="pb-3">Cookie</th>
-                  <th className="pb-3">Status</th>
-                </tr>
-              </thead>
-              <tbody>
-                {affiliatePrograms.map((program) => (
-                  <tr key={program.name} className="border-b last:border-0">
-                    <td className="py-4 font-medium">{program.name}</td>
-                    <td className="py-4 text-gray-600">{program.category}</td>
-                    <td className="py-4">
-                      <span className="rounded-full bg-blue-50 px-3 py-1 text-sm font-medium text-blue-700">
-                        {program.commission}
-                      </span>
-                    </td>
-                    <td className="py-4 text-gray-600">{program.cookie}</td>
-                    <td className="py-4">
-                      <span className={`rounded-full px-3 py-1 text-sm font-medium ${program.status === 'Active' ? 'bg-green-100 text-green-800' : 'bg-yellow-100 text-yellow-800'}`}>
-                        {program.status}
-                      </span>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <div className="mt-4 flex justify-end">
-            <button className="rounded-lg border border-gray-300 px-4 py-2 text-sm font-semibold text-gray-700 hover:bg-gray-50">
-              Add Program
+      {/* Tabs */}
+      <div className="border-b border-gray-200">
+        <nav className="flex space-x-8">
+          {['programs', 'content', 'automations'].map((tab) => (
+            <button
+              key={tab}
+              onClick={() => setActiveTab(tab)}
+              className={`border-b-2 py-4 text-sm font-medium capitalize transition-colors ${
+                activeTab === tab
+                  ? 'border-indigo-600 text-indigo-600'
+                  : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'
+              }`}
+            >
+              {tab}
             </button>
-            <button className="ml-3 rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-700">
-              Run Analysis
-            </button>
-          </div>
-        </Widget>
-
-        {/* Content Calendar */}
-        <Widget title="Content Calendar" subtitle="Upcoming posts & ideas">
-          <div className="space-y-4">
-            {contentCalendar.map((item) => (
-              <div key={item.id} className="flex items-center justify-between border-b pb-4 last:border-0">
-                <div className="flex items-center space-x-3">
-                  <div className={`h-2 w-2 rounded-full ${item.status === 'Published' ? 'bg-green-500' : item.status === 'Draft' ? 'bg-yellow-500' : item.status === 'Scheduled' ? 'bg-blue-500' : 'bg-gray-300'}`} />
-                  <div>
-                    <h4 className="font-medium text-gray-900">{item.title}</h4>
-                    <p className="text-sm text-gray-500">{item.date} • {item.status}</p>
-                  </div>
-                </div>
-                <button className="rounded-lg border border-gray-300 px-3 py-1 text-sm font-medium text-gray-700 hover:bg-gray-50">
-                  Edit
-                </button>
-              </div>
-            ))}
-          </div>
-          <div className="mt-4 flex items-center space-x-3">
-            <button className="flex-1 rounded-lg border border-gray-300 px-4 py-2 text-sm font-semibold text-gray-700 hover:bg-gray-50">
-              + New Idea
-            </button>
-            <button className="flex-1 rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-700">
-              Generate Outline
-            </button>
-          </div>
-        </Widget>
-
-        {/* Quick Actions */}
-        <Widget title="Quick Actions">
-          <div className="space-y-3">
-            <button className="flex w-full items-center space-x-3 rounded-lg bg-blue-50 p-3 text-blue-700 transition-colors hover:bg-blue-100">
-              <Zap size={20} />
-              <span className="font-medium">Run Commission Report</span>
-            </button>
-            <button className="flex w-full items-center space-x-3 rounded-lg bg-green-50 p-3 text-green-700 transition-colors hover:bg-green-100">
-              <FileText size={20} />
-              <span className="font-medium">Generate Blog Post</span>
-            </button>
-            <button className="flex w-full items-center space-x-3 rounded-lg bg-purple-50 p-3 text-purple-700 transition-colors hover:bg-purple-100">
-              <BarChart3 size={20} />
-              <span className="font-medium">Analyze Competitors</span>
-            </button>
-            <button className="flex w-full items-center space-x-3 rounded-lg bg-orange-50 p-3 text-orange-700 transition-colors hover:bg-orange-100">
-              <Calendar size={20} />
-              <span className="font-medium">Schedule Social Posts</span>
-            </button>
-          </div>
-        </Widget>
-
-        {/* Automation Pipeline */}
-        <Widget title="Automation Pipeline" subtitle="OpenClaw‑powered workflows">
-          <div className="space-y-4">
-            <div className="rounded-lg border border-gray-200 p-4">
-              <div className="flex items-center justify-between">
-                <div>
-                  <h4 className="font-medium">Keyword Research</h4>
-                  <p className="text-sm text-gray-500">Daily scan for trending AI‑tool keywords</p>
-                </div>
-                <span className="rounded-full bg-green-100 px-3 py-1 text-sm font-medium text-green-800">Active</span>
-              </div>
-            </div>
-            <div className="rounded-lg border border-gray-200 p-4">
-              <div className="flex items-center justify-between">
-                <div>
-                  <h4 className="font-medium">Content Generation</h4>
-                  <p className="text-sm text-gray-500">Auto‑generate outlines & drafts</p>
-                </div>
-                <span className="rounded-full bg-yellow-100 px-3 py-1 text-sm font-medium text-yellow-800">Paused</span>
-              </div>
-            </div>
-            <div className="rounded-lg border border-gray-200 p-4">
-              <div className="flex items-center justify-between">
-                <div>
-                  <h4 className="font-medium">Social Sharing</h4>
-                  <p className="text-sm text-gray-500">Auto‑post to Twitter & LinkedIn</p>
-                </div>
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-sm font-medium text-gray-800">Not Started</span>
-              </div>
-            </div>
-            <div className="rounded-lg border border-gray-200 p-4">
-              <div className="flex items-center justify-between">
-                <div>
-                  <h4 className="font-medium">Performance Tracking</h4>
-                  <p className="text-sm text-gray-500">Monitor clicks, conversions, revenue</p>
-                </div>
-                <span className="rounded-full bg-gray-100 px-3 py-1 text-sm font-medium text-gray-800">Not Started</span>
-              </div>
-            </div>
-          </div>
-          <div className="mt-4">
-            <button className="w-full rounded-lg bg-gradient-to-r from-blue-500 to-purple-500 px-4 py-3 font-semibold text-white hover:opacity-90">
-              Launch Automation Builder
-            </button>
-          </div>
-        </Widget>
+          ))}
+        </nav>
       </div>
 
-      <div className="rounded-xl border bg-white p-5">
-        <h3 className="font-semibold text-gray-900">Today&apos;s Affiliate Task</h3>
-        <p className="mt-2 text-gray-600">
-          Research 5 more high‑commission AI‑tool affiliate programs, update the database, and generate two blog post outlines (Notion vs ClickUp, Jasper review).
-        </p>
-        <div className="mt-4 flex items-center space-x-4">
-          <button className="rounded-lg bg-blue-600 px-4 py-2 font-semibold text-white hover:bg-blue-700">
-            Run Research Script
-          </button>
-          <button className="rounded-lg border border-gray-300 px-4 py-2 font-semibold text-gray-700 hover:bg-gray-50">
-            View Full Plan
-          </button>
-          <a 
-            href="/affiliate_marketing_plan.md"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-lg border border-gray-300 px-4 py-2 font-semibold text-gray-700 hover:bg-gray-50 inline-block"
-          >
-            Open Master Plan
-          </a>
-        </div>
+      {/* Tab Content */}
+      <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
+        {activeTab === 'programs' && (
+          <>
+            <Widget title="Affiliate Programs" subtitle="Active partnerships" colSpan={2}>
+              <div className="overflow-x-auto">
+                <table className="w-full">
+                  <thead>
+                    <tr className="border-b text-left text-sm text-gray-500">
+                      <th className="pb-3 font-medium">Program</th>
+                      <th className="pb-3 font-medium">Commission</th>
+                      <th className="pb-3 font-medium">Cookie</th>
+                      <th className="pb-3 font-medium">Clicks</th>
+                      <th className="pb-3 font-medium">Earnings</th>
+                      <th className="pb-3 font-medium">Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {affiliatePrograms.map((program) => (
+                      <tr key={program.name} className="border-b last:border-0 hover:bg-gray-50/50">
+                        <td className="py-4">
+                          <div>
+                            <p className="font-medium text-gray-900">{program.name}</p>
+                            <p className="text-xs text-gray-500">{program.category}</p>
+                          </div>
+                        </td>
+                        <td className="py-4 text-sm text-gray-600">{program.commission}</td>
+                        <td className="py-4 text-sm text-gray-600">{program.cookie}</td>
+                        <td className="py-4 text-sm text-gray-600">{program.clicks}</td>
+                        <td className="py-4 text-sm font-medium text-gray-900">{program.earnings}</td>
+                        <td className="py-4">
+                          <span className="inline-flex items-center rounded-full bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800">
+                            {program.status}
+                          </span>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <div className="mt-4 flex justify-end space-x-3">
+                <button className="inline-flex items-center space-x-2 rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50">
+                  <Plus className="h-4 w-4" />
+                  <span>Add Program</span>
+                </button>
+              </div>
+            </Widget>
+          </>
+        )}
+
+        {activeTab === 'content' && (
+          <>
+            <Widget title="Content Pipeline" subtitle="Ideas and drafts" colSpan={2}>
+              <div className="space-y-4">
+                {contentIdeas.map((item) => (
+                  <div key={item.id} className="flex items-center justify-between rounded-lg border border-gray-100 p-4 hover:border-gray-200 transition-colors">
+                    <div className="flex items-start space-x-3">
+                      <div className={`mt-1 h-2 w-2 rounded-full ${
+                        item.status === 'Published' ? 'bg-green-500' : 
+                        item.status === 'Draft' ? 'bg-yellow-500' : 
+                        'bg-gray-300'
+                      }`} />
+                      <div>
+                        <h4 className="font-medium text-gray-900">{item.title}</h4>
+                        <div className="mt-1 flex items-center space-x-3 text-xs text-gray-500">
+                          <span className="rounded-full bg-gray-100 px-2 py-0.5">{item.type}</span>
+                          <span>{item.date}</span>
+                          <span>•</span>
+                          <span>{item.status}</span>
+                        </div>
+                      </div>
+                    </div>
+                    <button className="rounded-lg border border-gray-200 px-3 py-1.5 text-sm font-medium text-gray-600 hover:bg-gray-50">
+                      Edit
+                    </button>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-4 flex space-x-3">
+                <button className="flex-1 rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50">
+                  + New Idea
+                </button>
+                <button className="flex-1 rounded-lg bg-indigo-600 px-4 py-2 text-sm font-medium text-white hover:bg-indigo-700">
+                  Generate with AI
+                </button>
+              </div>
+            </Widget>
+          </>
+        )}
+
+        {activeTab === 'automations' && (
+          <>
+            <Widget title="Active Workflows" subtitle="OpenClaw-powered automations" colSpan={2}>
+              <div className="space-y-3">
+                {workflows.map((workflow) => (
+                  <div key={workflow.id} className="flex items-center justify-between rounded-lg border border-gray-100 p-4">
+                    <div className="flex items-center space-x-4">
+                      <div className={`rounded-full p-2 ${
+                        workflow.status === 'Active' ? 'bg-green-100 text-green-600' : 
+                        'bg-amber-100 text-amber-600'
+                      }`}>
+                        {workflow.status === 'Active' ? <Play className="h-4 w-4" /> : <Pause className="h-4 w-4" />}
+                      </div>
+                      <div>
+                        <h4 className="font-medium text-gray-900">{workflow.name}</h4>
+                        <p className="text-sm text-gray-500">{workflow.description}</p>
+                      </div>
+                    </div>
+                    <div className="text-right">
+                      <span className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium ${
+                        workflow.status === 'Active' ? 'bg-green-100 text-green-800' : 
+                        'bg-amber-100 text-amber-800'
+                      }`}>
+                        {workflow.status}
+                      </span>
+                      <p className="mt-1 text-xs text-gray-400 flex items-center justify-end space-x-1">
+                        <Clock className="h-3 w-3" />
+                        <span>{workflow.lastRun}</span>
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <button className="mt-4 w-full rounded-lg bg-gradient-to-r from-indigo-600 to-purple-600 px-4 py-3 text-sm font-semibold text-white hover:opacity-90 transition-opacity">
+                Create New Workflow
+              </button>
+            </Widget>
+          </>
+        )}
       </div>
     </div>
   );

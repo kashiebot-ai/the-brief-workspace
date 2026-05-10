@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <style>
+      .logo-primary { fill: #1e40af; }
+      .logo-secondary { fill: #3b82f6; }
+      .logo-accent { fill: #60a5fa; }
+    </style>
+  </defs>
+  
+  <!-- Shield shape -->
+  <path d="M100 50 L140 70 L140 110 Q140 130 100 150 Q60 130 60 110 L60 70 Z" class="logo-primary"/>
+  <path d="M100 55 L135 73 L135 110 Q135 128 100 145 Q65 128 65 110 L65 73 Z" fill="#ffffff"/>
+  
+  <!-- Newspaper/media symbol -->
+  <rect x="80" y="80" width="40" height="4" class="logo-secondary"/>
+  <rect x="80" y="90" width="30" height="2" class="logo-accent"/>
+  <rect x="80" y="95" width="35" height="2" class="logo-accent"/>
+  <rect x="80" y="100" width="32" height="2" class="logo-accent"/>
+  
+  <!-- Southern Cross stars (NZ reference) -->
+  <circle cx="90" cy="115" r="2.5" class="logo-primary"/>
+  <circle cx="110" cy="115" r="2.5" class="logo-primary"/>
+  <circle cx="100" cy="125" r="2.5" class="logo-primary"/>
+  <circle cx="95" cy="130" r="2" class="logo-secondary"/>
+  
+  <!-- Crown element at top -->
+  <path d="M95 62 L100 55 L105 62" stroke="#3b82f6" stroke-width="2" fill="none" stroke-linejoin="round"/>
+</svg>

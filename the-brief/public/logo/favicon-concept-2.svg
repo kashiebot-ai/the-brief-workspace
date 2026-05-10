@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Favicon: Beehive dome -->
+  <defs>
+    <style>
+      @media (prefers-color-scheme: dark) {
+        .icon { fill: #ffffff; }
+        .lines { stroke: #000000; }
+      }
+      @media (prefers-color-scheme: light) {
+        .icon { fill: #1a1a1a; }
+        .lines { stroke: #ffffff; }
+      }
+    </style>
+  </defs>
+  
+  <!-- Beehive shape -->
+  <path class="icon" d="M 16 6 Q 10 8, 8 14 Q 7 18, 8 22 L 8 26 L 24 26 L 24 22 Q 25 18, 24 14 Q 22 8, 16 6 Z"/>
+  
+  <!-- Layer lines -->
+  <line class="lines" x1="10" y1="12" x2="22" y2="12" stroke-width="1.5" opacity="0.4"/>
+  <line class="lines" x1="9" y1="16" x2="23" y2="16" stroke-width="1.5" opacity="0.4"/>
+  <line class="lines" x1="8" y1="20" x2="24" y2="20" stroke-width="1.5" opacity="0.4"/>
+  <line class="lines" x1="8" y1="24" x2="24" y2="24" stroke-width="1.5" opacity="0.4"/>
+</svg>

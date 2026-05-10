@@ -1,25 +1,35 @@
 # Mission Control
 
-A custom NextJS dashboard for productivity tools, built for Vianni's OpenClaw workspace.
+A modern, AI-powered project dashboard for managing "The Brief" and other ventures.
 
-## Features
+## Overview
 
-- **Dashboard Overview**: Stats, charts, recent activity, system status
-- **Sidebar Navigation**: Quick access to tools, analytics, calendar, automations
-- **Widget System**: Modular widgets for different data visualizations
-- **Responsive Design**: Works on desktop and mobile
+Mission Control is a Next.js 16 dashboard that provides:
+
+- **Real-time project status** for "The Brief" political transparency platform
+- **GitHub integration** showing active branches and merge status
+- **OpenClaw gateway connection** for AI-powered automation
+- **Affiliate marketing tracking** with content pipeline
+- **System health monitoring** across all connected services
+
+## Current Status
+
+**The Brief Project:**
+- ✅ 9 feature branches completed (March 3rd Night Shift)
+- ✅ 95 bills tracked from Parliament.nz
+- ✅ 69 electorates with full MP data
+- ✅ Quiz, SEO, Design, Bill tools all ready
+- ⏳ Awaiting merge to main
 
 ## Tech Stack
 
 - **Next.js 16** (App Router, Turbopack)
 - **TypeScript**
-- **Tailwind CSS**
+- **Tailwind CSS 4**
+- **NextAuth.js** (authentication)
 - **Lucide React** (icons)
-- **Hosted locally** (port 3000)
 
-## Getting Started
-
-### Development
+## Development
 
 ```bash
 cd mission-control
@@ -27,42 +37,64 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:3000](http://localhost:3000)
 
-### Building for Production
+## Environment Variables
 
-```bash
-npm run build
-npm start
+Create `.env.local`:
+
+```env
+# NextAuth
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=your-secret-here
+
+# OpenClaw Gateway (optional - for local integration)
+OPENCLAW_GATEWAY_URL=http://localhost:18789
+OPENCLAW_GATEWAY_TOKEN=your-token
 ```
+
+## Features
+
+### Dashboard
+- Live project metrics (branches, deploys, election countdown)
+- Completed work timeline
+- Ready-to-merge branch queue
+- Next steps priority list
+- System health monitoring
+
+### Affiliate Marketing
+- Program tracking (Notion, Copy.ai, Vercel, Sanity)
+- Content pipeline with status
+- Automation workflow status
+- Performance metrics
+
+### OpenClaw Integration
+- Gateway connection status
+- Session monitoring
+- Tool invocation proxy
+- Real-time health checks
 
 ## Project Structure
 
-- `/app` – Next.js app router pages and layouts
-- `/components` – Reusable React components (Sidebar, Header, Widget)
-- `/public` – Static assets
+```
+/app
+  /page.tsx           # Main dashboard
+  /affiliate/page.tsx # Affiliate marketing
+  /auth/signin        # Authentication
+  /api/openclaw       # OpenClaw proxy API
+/components
+  Sidebar.tsx         # Navigation
+  Header.tsx          # Top bar with search
+  Widget.tsx          # Reusable card component
+  OpenClawStatus.tsx  # Gateway status widget
+/lib
+  openclaw.ts         # Gateway utilities
+```
 
-## Adding New Tools
+## Connected Projects
 
-1. Create a new page in `/app/tools/[name]`
-2. Add a navigation item in `/components/Sidebar.tsx`
-3. Optionally create a widget component in `/components`
-
-## Integration with OpenClaw
-
-The dashboard is designed to eventually connect to OpenClaw APIs for:
-- Real‑time edge detection counts
-- Property lead monitoring
-- System health metrics
-- Heartbeat logs
-
-## Next Steps
-
-- [ ] Connect to OpenClaw Gateway API
-- [ ] Add authentication (NextAuth)
-- [ ] Implement real‑time updates (WebSockets)
-- [ ] Create tool‑builder interface
-- [ ] Deploy to Vercel for remote access
+- **The Brief** - [Production Site](https://the-brief-odmv4zxa7-kashiebot-7409s-projects.vercel.app)
+- **GitHub Repo** - [kashiebot-7409s-projects/the-brief](https://github.com/kashiebot-7409s-projects/the-brief)
 
 ## License
 

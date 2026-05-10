@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <style>
+      @media (prefers-color-scheme: dark) {
+        .logo-primary { fill: #E0E0E0; stroke: #E0E0E0; }
+        .logo-gradient-start { stop-color: #E0E0E0; }
+        .logo-gradient-end { stop-color: #A0A0A0; }
+      }
+      @media (prefers-color-scheme: light) {
+        .logo-primary { fill: #2C3E50; stroke: #2C3E50; }
+        .logo-gradient-start { stop-color: #2C3E50; }
+        .logo-gradient-end { stop-color: #7F8C8D; }
+      }
+    </style>
+    <linearGradient id="briefGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" class="logo-gradient-start"/>
+      <stop offset="100%" class="logo-gradient-end"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Geometric "B" for Brief -->
+  <path d="M 70 60 L 70 140 L 110 140 Q 130 140 130 120 Q 130 105 115 105 Q 130 105 130 85 Q 130 60 110 60 Z" 
+        stroke="currentColor" stroke-width="3" fill="url(#briefGradient)" class="logo-primary" opacity="0.9"/>
+  
+  <!-- Inner detail suggesting document folds -->
+  <line x1="70" y1="85" x2="105" y2="85" stroke="currentColor" stroke-width="1.5" class="logo-primary" opacity="0.3"/>
+  <line x1="70" y1="105" x2="105" y2="105" stroke="currentColor" stroke-width="1.5" class="logo-primary" opacity="0.3"/>
+  
+  <!-- Small fern accent in bottom right -->
+  <path d="M 135 130 Q 138 125 140 120 M 137 126 Q 140 124 142 122" stroke="currentColor" stroke-width="1.5" fill="none" class="logo-primary" opacity="0.5"/>
+</svg>

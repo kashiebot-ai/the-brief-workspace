@@ -1,6 +1,10 @@
+'use client'
+
+import { useState, useEffect, Suspense } from 'react'
+import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 import ExplainerCard from '@/components/ExplainerCard'
-import { client } from '@/lib/sanity'
 
 interface Explainer {
   _id: string
@@ -68,46 +72,57 @@ const sampleExplainers = [
   },
 ]
 
-async function getAllExplainers() {
-  try {
-    if (!client) return sampleExplainers
-    const explainers = await client.fetch(`
-      *[_type == "explainer"] | order(publishedAt desc) {
-        _id,
-        title,
-        summary,
-        category,
-        slug,
-        readingTime
-      }
-    `)
-    return explainers.length > 0 ? explainers : sampleExplainers
-  } catch {
-    return sampleExplainers
-  }
-}
+const categories = ['All', 'Politics', 'Technology', 'Business', 'Science', 'Health', 'Culture']
 
-export default async function ExplainersPage() {
-  const explainers = await getAllExplainers()
+function ExplainersContent() {
+  const searchParams = useSearchParams()
+  const [activeCategory, setActiveCategory] = useState('All')
+  const [explainers] = useState<Explainer[]>(sampleExplainers)
+
+  // Read category from URL on mount
+  useEffect(() => {
+    const categoryFromUrl = searchParams.get('category')
+    if (categoryFromUrl) {
+      // Capitalize first letter to match our categories
+      const formattedCategory = categoryFromUrl.charAt(0).toUpperCase() + categoryFromUrl.slice(1).toLowerCase()
+      if (categories.includes(formattedCategory)) {
+        setActiveCategory(formattedCategory)
+      }
+    }
+  }, [searchParams])
+
+  const filteredExplainers = activeCategory === 'All' 
+    ? explainers 
+    : explainers.filter(e => e.category.toLowerCase() === activeCategory.toLowerCase())
 
   return (
     <section className="py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb */}
-        <nav className="mb-8">
+        <motion.nav 
+          className="mb-8"
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4 }}
+        >
           <ol className="flex items-center space-x-2 text-sm text-gray-600">
             <li>
-              <Link href="/" className="hover:text-indigo-600">
+              <Link href="/" className="hover:text-indigo-600 transition-colors">
                 Home
               </Link>
             </li>
             <li>/</li>
             <li className="text-gray-900 font-medium">Explainers</li>
           </ol>
-        </nav>
+        </motion.nav>
 
         {/* Header */}
-        <div className="mb-12">
+        <motion.div 
+          className="mb-12"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.1 }}
+        >
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             All Explainers
           </h1>
@@ -115,29 +130,49 @@ export default async function ExplainersPage() {
             Browse our complete collection of explainers covering politics,
             technology, business, science, health, and culture.
           </p>
-        </div>
+        </motion.div>
 
         {/* Categories */}
-        <div className="flex flex-wrap gap-2 mb-8">
-          {['All', 'Politics', 'Technology', 'Business', 'Science', 'Health', 'Culture'].map(
-            (cat) => (
-              <button
-                key={cat}
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-                  cat === 'All'
-                    ? 'bg-indigo-600 text-white'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                }`}
-              >
-                {cat}
-              </button>
-            )
-          )}
-        </div>
+        <motion.div 
+          className="flex flex-wrap gap-2 mb-8"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+        >
+          {categories.map((cat, index) => (
+            <motion.button
+              key={cat}
+              onClick={() => setActiveCategory(cat)}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.3 + index * 0.05 }}
+              className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                cat === activeCategory
+                  ? 'bg-indigo-600 text-white shadow-md'
+                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+              }`}
+            >
+              {cat}
+            </motion.button>
+          ))}
+        </motion.div>
 
         {/* Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {explainers.map((explainer: Explainer) => (
+        <motion.div 
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: { opacity: 0 },
+            visible: {
+              opacity: 1,
+              transition: { staggerChildren: 0.08 }
+            }
+          }}
+        >
+          {filteredExplainers.map((explainer: Explainer) => (
             <ExplainerCard
               key={explainer._id}
               title={explainer.title}
@@ -147,8 +182,37 @@ export default async function ExplainersPage() {
               readingTime={explainer.readingTime}
             />
           ))}
-        </div>
+        </motion.div>
+
+        {/* Empty state */}
+        {filteredExplainers.length === 0 && (
+          <motion.div 
+            className="text-center py-16"
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+          >
+            <p className="text-gray-500 text-lg">No explainers found in this category.</p>
+            <button
+              onClick={() => setActiveCategory('All')}
+              className="mt-4 text-indigo-600 hover:text-indigo-700 font-medium"
+            >
+              Show all explainers
+            </button>
+          </motion.div>
+        )}
       </div>
     </section>
+  )
+}
+
+export default function ExplainersPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="animate-pulse text-gray-500">Loading...</div>
+      </div>
+    }>
+      <ExplainersContent />
+    </Suspense>
   )
 }
